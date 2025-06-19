@@ -2,7 +2,7 @@ import React from 'react';
 
 const JoinUsSection = () => {
   return (
-    <section id="register" className="py-20 bg-gradient-to-r from-indigo-600 to-purple-600 text-white">
+    <section id="register" className="py-20 text-white"   style={{ backgroundColor: "#8F2901" }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
@@ -17,7 +17,7 @@ const JoinUsSection = () => {
             
             <div className="space-y-6 mb-8">
               <div className="flex items-center space-x-4">
-                <div className="w-16 h-16 bg-white/10 rounded-2xl flex items-center justify-center text-2xl backdrop-blur-md">
+                <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center text-2xl backdrop-blur-md">
                   🤝
                 </div>
                 <div>
@@ -26,7 +26,7 @@ const JoinUsSection = () => {
                 </div>
               </div>
               <div className="flex items-center space-x-4">
-                <div className="w-16 h-16 bg-white/10 rounded-2xl flex items-center justify-center text-2xl backdrop-blur-md">
+                <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center text-2xl backdrop-blur-md">
                   📚
                 </div>
                 <div>
@@ -35,7 +35,7 @@ const JoinUsSection = () => {
                 </div>
               </div>
               <div className="flex items-center space-x-4">
-                <div className="w-16 h-16 bg-white/10 rounded-2xl flex items-center justify-center text-2xl backdrop-blur-md">
+                <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center text-2xl backdrop-blur-md">
                   🌟
                 </div>
                 <div>
@@ -46,7 +46,7 @@ const JoinUsSection = () => {
             </div>
             
             <div>
-              <button className="bg-white text-indigo-600 px-10 py-4 rounded-lg font-semibold text-lg hover:bg-gray-50 transform hover:-translate-y-1 transition duration-300 shadow-lg hover:shadow-xl">
+              <button className="bg-white px-10 py-4 rounded-lg font-semibold text-lg hover:bg-gray-50 transform hover:-translate-y-1 transition duration-300 shadow-lg hover:shadow-xl" style={{ color: "#8F2901" }}>
                 Join Us Today
               </button>
             </div>

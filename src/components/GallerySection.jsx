@@ -16,10 +16,11 @@ const GallerySection = () => {
     <section id="gallery" className="py-20 bg-gradient-to-br from-gray-50 to-blue-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
-            <span className="gradient-text">
-              Our Journey
-            </span>
+        <h2
+            className="text-4xl sm:text-5xl font-bold mb-6"
+            style={{ color: "#8F2901" }}
+          >
+            <span>Our Heart and Purpose</span>
           </h2>
           <p className="text-xl text-gray-600 leading-relaxed max-w-4xl mx-auto">
             Explore the moments that define our community's growth, achievements, 
