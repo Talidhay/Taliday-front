@@ -13,11 +13,11 @@ const AboutLogoMeaning = () => {
           </h3>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center mb-16">
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center hover:-translate-y-2 transition duration-300">
             <a
               href="/files/Talidhay_Profile.pdf"
               download
-              className="inline-flex items-center bg-gradient-to-r from-[#8F2901] via-[#B05C24] to-[#8F2901] text-white px-8 py-4 rounded-4xl font-bold text-lg mb-4 md:mb-0 hover:from-[#B05C24] hover:via-[#8F2901] hover:to-[#B05C24] transition duration-300 shadow-lg hover:shadow-xl"
+              className="inline-flex items-center bg-gradient-to-r from-[#4B1E06] via-[#8F2901] to-[#4B1E06] text-white px-8 py-4 rounded-4xl font-bold text-lg mb-4 md:mb-0 hover:from-[#B05C24] hover:via-[#8F2901] hover:to-[#B05C24] transition duration-300 shadow-lg hover:shadow-xl"
             >
               Download Logo Meaning (PDF)
               <svg
@@ -35,11 +35,11 @@ const AboutLogoMeaning = () => {
               </svg>
             </a>
           </div>
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center hover:-translate-y-2 transition duration-300">
             <a
               href="/files/Talidhay_Profile.pdf"
               download
-              className="inline-flex items-center bg-gradient-to-r from-[#8F2901] via-[#B05C24] to-[#8F2901] text-white px-8 py-4 rounded-4xl font-bold text-lg hover:from-[#B05C24] hover:via-[#8F2901] hover:to-[#B05C24] transition duration-300 shadow-lg hover:shadow-xl"
+              className="inline-flex items-center bg-gradient-to-r from-[#4B1E06] via-[#8F2901] to-[#4B1E06] text-white px-8 py-4 rounded-4xl font-bold text-lg hover:from-[#B05C24] hover:via-[#8F2901] hover:to-[#B05C24] transition duration-300 shadow-lg hover:shadow-xl"
             >
               Download Talidhay Branding (PDF)
               <svg

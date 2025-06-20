@@ -41,7 +41,7 @@ const AboutSection = () => {
           >
             <span>Our Heart and Purpose</span>
           </h2>
-          <p className="text-xl text-gray-600 leading-relaxed max-w-4xl mx-auto">
+          <p className="text-xl leading-relaxed max-w-4xl mx-auto">
             At the core of Talidhay is a shared dream—to build a kinder, more
             connected world through simple acts of joy. Guided by our mission,
             vision, and values, we create safe, inclusive spaces where children
@@ -61,7 +61,7 @@ const AboutSection = () => {
               <h3 className="text-2xl font-semibold text-gray-900 mb-4 text-center">
                 {card.title}
               </h3>
-              <p className="text-gray-600 leading-relaxed text-center">
+              <p className="leading-relaxed text-center">
                 {card.description}
               </p>
             </div>
@@ -71,7 +71,7 @@ const AboutSection = () => {
         <div className="text-center">
           <Link
             to="/aboutpage"
-            className="inline-block bg-gradient-to-r from-[#8F2901] via-[#B05C24] to-[#8F2901] text-white px-10 py-4 rounded-4xl font-bold text-lg hover:from-[#B05C24] hover:via-[#8F2901] hover:to-[#B05C24] transform hover:-translate-y-1 transition duration-300 shadow-lg hover:shadow-xl w-70 max-w-full"
+            className="inline-block bg-gradient-to-r from-[#4B1E06] via-[#8F2901] to-[#4B1E06] text-white px-10 py-4 rounded-4xl font-bold text-lg hover:from-[#B05C24] hover:via-[#8F2901] hover:to-[#B05C24] transform hover:-translate-y-1 transition duration-300 shadow-lg hover:shadow-xl w-70 max-w-full"
           >
             Learn More
           </Link>

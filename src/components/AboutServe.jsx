@@ -18,7 +18,7 @@ const AboutServe = () => {
           {/* Left column: Image or illustration */}
           <div className="flex justify-center">
             <img
-              src="/images/image 27.png"
+              src="/images/image 27.jpg"
               alt="About Talidhay"
               className="w-full max-w-md rounded-3xl shadow-lg object-cover"
             />
@@ -27,8 +27,8 @@ const AboutServe = () => {
           <div>
             <p className="text-xl text-gray-600 leading-relaxed mb-6 text-justify">
               Our organization primarily focuses on uplifting individuals and
-              communities in <b>Barangay Amihan, Quezon City,</b> with plans to extend
-              our reach to neighboring areas and eventually the entire
+              communities in <b>Barangay Amihan, Quezon City,</b> with plans to
+              extend our reach to neighboring areas and eventually the entire
               Philippines. We aim to serve a wide range of demographics,
               including children, youth, adults, senior citizens and also nature
               and animals. Our programs and activities are designed to foster

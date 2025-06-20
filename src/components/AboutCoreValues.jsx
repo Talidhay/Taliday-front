@@ -23,7 +23,7 @@ const AboutCoreValues = () => {
 
         {/* Three column cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16">
-          <div className="bg-[#FAD374] rounded-2xl shadow-lg p-8 flex flex-col items-center">
+          <div className="bg-[#FAD374] rounded-2xl shadow-lg p-8 flex flex-col items-center hover:-translate-y-2 transition duration-300">
             <h4 className="text-xl font-bold mb-3 text-[#8F2901] text-center">
               Joy and Positivity
             </h4>
@@ -34,7 +34,7 @@ const AboutCoreValues = () => {
               communities alike.
             </p>
           </div>
-          <div className="bg-[#FAD374] rounded-2xl shadow-lg p-8 flex flex-col items-center">
+          <div className="bg-[#FAD374] rounded-2xl shadow-lg p-8 flex flex-col items-center hover:-translate-y-2 transition duration-300">
             <h4 className="text-xl font-bold mb-3 text-[#8F2901] text-center">
               Genuine Service
             </h4>
@@ -44,7 +44,7 @@ const AboutCoreValues = () => {
               we do.
             </p>
           </div>
-          <div className="bg-[#FAD374] rounded-2xl shadow-lg p-8 flex flex-col items-center">
+          <div className="bg-[#FAD374] rounded-2xl shadow-lg p-8 flex flex-col items-center hover:-translate-y-2 transition duration-300">
             <h4 className="text-xl font-bold mb-3 text-[#8F2901] text-center">
               Shared Growth
             </h4>

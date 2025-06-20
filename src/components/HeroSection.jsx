@@ -6,7 +6,7 @@ const HeroSection = () => {
       id="home"
       className="min-h-screen flex items-center justify-center relative pt-16"
       style={{
-        backgroundImage: `url('/images/image 27.png')`, // Change to your image path
+        backgroundImage: `url('/images/image 34.jpg')`, // Change to your image path
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
@@ -28,7 +28,7 @@ const HeroSection = () => {
           </p>
 
           {/* Card with text left and button right */}
-          <div className="w-full max-w-xl bg-[#46522E]/80 rounded-4xl shadow-lg border-2 border-gray-300 flex flex-col sm:flex-row items-center justify-between px-4 py-3 gap-4 mb-4">
+          <div className="w-full rounded-[3rem] max-w-xl bg-[#46522E]/80 rounded-4xl shadow-lg border-2 border-gray-300 flex flex-col sm:flex-row items-center justify-between px-4 py-3 gap-4 mb-4">
             <span className="ps-4 text-gray-100 text-lg font-medium text-center sm:text-left">
               Your kindness plants seeds of joy.
             </span>
