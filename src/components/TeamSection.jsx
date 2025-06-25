@@ -62,7 +62,7 @@ const TeamSection = () => {
           {teamMembers.map((member) => (
             <div
               key={member.id}
-              className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transform hover:-translate-y-2 transition duration-300 border border-gray-100 text-center flex flex-col items-center"
+              className="bg-[#FAD374] p-8 rounded-2xl shadow-lg hover:shadow-xl transform hover:-translate-y-2 transition duration-300 border border-gray-100 text-center flex flex-col items-center"
             >
               <div className="w-full mb-6">
                 <img
@@ -70,7 +70,7 @@ const TeamSection = () => {
                     .charAt(0)
                     .toUpperCase()}.jpg`}
                   alt={member.name}
-                  className="w-full aspect-square object-cover rounded-xl border-2 border-yellow-700 bg-yellow-100"
+                  className="w-full aspect-square object-cover rounded-xl border-2 border-yellow-700 bg-white"
                   style={{ maxHeight: "220px" }}
                 />
               </div>

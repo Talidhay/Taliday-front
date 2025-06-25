@@ -2,6 +2,7 @@ import React from "react";
 import EventsViewDescription from "./EventsViewDescription";
 import EventsViewPromotions from "./EventsViewPromotions";
 import EventsViewGallery from "./EventsViewGallery";
+import EventsViewReport from "./EventsViewReport";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -46,6 +47,18 @@ const EventsView = () => {
           <FontAwesomeIcon icon={faChevronRight} />
         </button>
       </div>
+      {/* Chips Row */}
+      <div className="flex justify-center gap-4 mb-6">
+        <span className="px-4 py-2 rounded-full bg-[#B05C24] text-white font-semibold text-sm shadow">
+          #ArtFromTheheart
+        </span>
+        <span className="px-4 py-2 rounded-full bg-[#B05C24] text-white font-semibold text-sm shadow">
+          #ChalkPaint
+        </span>
+        <span className="px-4 py-2 rounded-full bg-[#B05C24] text-white font-semibold text-sm shadow">
+          #HaveFunDay
+        </span>
+      </div>
       {/* Event Image */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-15">
         <img
@@ -76,11 +89,7 @@ const EventsView = () => {
           {activeTab === "Description" && <EventsViewDescription />}
           {activeTab === "Promotions" && <EventsViewPromotions />}
           {activeTab === "Gallery" && <EventsViewGallery />}
-          {activeTab === "Report" && (
-            <p className="text-gray-700 text-lg leading-relaxed text-center">
-              Report content goes here.
-            </p>
-          )}
+          {activeTab === "Report" && <EventsViewReport />}
           {activeTab === "Organizers" && (
             <p className="text-gray-700 text-lg leading-relaxed text-center">
               Organizers content goes here.
