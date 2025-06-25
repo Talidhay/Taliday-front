@@ -10,32 +10,32 @@ const TeamSection = () => {
     },
     {
       id: 2,
-      name: "Jane Smith",
-      role: "Program Director",
+      name: "Tania Virgino",
+      role: "Vice President (External)",
       description: "Expert in sustainable development and social impact",
     },
     {
       id: 3,
-      name: "Mike Johnson",
-      role: "Technical Lead",
+      name: "Marylyne Vargas",
+      role: "Secretary",
       description: "Innovation specialist with expertise in digital solutions",
     },
     {
       id: 4,
-      name: "Sarah Williams",
-      role: "Community Manager",
+      name: "Angel Macabale",
+      role: "Treasurer",
       description: "Passionate about building strong community connections",
     },
     {
       id: 5,
-      name: "David Brown",
-      role: "Operations Manager",
+      name: "Cyril Lagdameo",
+      role: "Auditor",
       description: "Ensuring smooth operations and project execution",
     },
     {
       id: 6,
-      name: "Emily Davis",
-      role: "Marketing Specialist",
+      name: "Mark Ryan Benlot",
+      role: "P.R.O",
       description: "Creative storyteller promoting community initiatives",
     },
   ];
@@ -50,7 +50,7 @@ const TeamSection = () => {
           >
             <span>The People Behind Talidhay</span>
           </h2>
-          <p className="text-xl text-gray-600 leading-relaxed max-w-4xl mx-auto">
+          <p className="text-xl leading-relaxed max-w-4xl mx-auto">
             Talidhay is made possible by a passionate team of volunteers,
             organizers, and community builders. United by shared values and a
             heart for service, our officers and members work together to turn
@@ -62,10 +62,17 @@ const TeamSection = () => {
           {teamMembers.map((member) => (
             <div
               key={member.id}
-              className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transform hover:-translate-y-2 transition duration-300 border border-gray-100 text-center"
+              className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transform hover:-translate-y-2 transition duration-300 border border-gray-100 text-center flex flex-col items-center"
             >
-              <div className="w-20 h-20 bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-6">
-                {member.name.charAt(0)}
+              <div className="w-full mb-6">
+                <img
+                  src={`/images/team/${member.name
+                    .charAt(0)
+                    .toUpperCase()}.jpg`}
+                  alt={member.name}
+                  className="w-full aspect-square object-cover rounded-xl border-2 border-yellow-700 bg-yellow-100"
+                  style={{ maxHeight: "220px" }}
+                />
               </div>
               <div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">
@@ -74,16 +81,14 @@ const TeamSection = () => {
                 <p className="text-indigo-600 font-medium mb-4">
                   {member.role}
                 </p>
-                <p className="text-gray-600 leading-relaxed text-sm">
-                  {member.description}
-                </p>
+                <p className=" leading-relaxed text-sm">{member.description}</p>
               </div>
             </div>
           ))}
         </div>
 
         <div className="text-center">
-          <button className="bg-gradient-to-r from-[#8F2901] via-[#B05C24] to-[#8F2901] text-white px-10 py-4 rounded-4xl font-bold text-lg hover:from-[#B05C24] hover:via-[#8F2901] hover:to-[#B05C24] transform hover:-translate-y-1 transition duration-300 shadow-lg hover:shadow-xl w-70 max-w-full">
+          <button className="bg-gradient-to-r from-[#4B1E06] via-[#8F2901] to-[#4B1E06] text-white px-10 py-4 rounded-4xl font-bold text-lg hover:from-[#B05C24] hover:via-[#8F2901] hover:to-[#B05C24] transform hover:-translate-y-1 transition duration-300 shadow-lg hover:shadow-xl w-70 max-w-full">
             See All
           </button>
         </div>

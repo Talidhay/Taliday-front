@@ -7,10 +7,11 @@ import AboutSection from "./components/AboutSection";
 import AboutPage from "./components/AboutPage";
 import GallerySection from "./components/GallerySection";
 import EventsSection from "./components/EventsSection";
-import Events from "./components/Events";
+import EventsPage from "./components/EventsPage";
 import TeamSection from "./components/TeamSection";
 import JoinUsSection from "./components/JoinUsSection";
 import Footer from "./components/Footer";
+import EventsView from "./components/EventsView";
 
 function App() {
   return (
@@ -31,7 +32,8 @@ function App() {
             }
           />
           <Route path="/aboutpage" element={<AboutPage />} />
-          <Route path="/events" element={<Events />} />
+          <Route path="/eventspage" element={<EventsPage />} />
+          <Route path="/eventsview" element={<EventsView />} />
         </Routes>
         <Footer />
       </div>
