@@ -12,7 +12,7 @@ This is the frontend repository for the **Talidhay** website. It is built with R
 
 1. **Clone the repository**
 
-   ```bash
+```bash
   git clone https://github.com/Talidhay/Taliday-front.git
 
 
