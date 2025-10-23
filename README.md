@@ -1,8 +1,5 @@
 <h1 align= "center">Talidhay Website</h1>
 
-<img src="https://raw.githubusercontent.com/Talidhay/Taliday-front/main/assets/1.png" alt="Talidhay Logo" width="100"/>
-
-
 **Frontend repository for Talidhay**
 
 ## Description
