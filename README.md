@@ -20,16 +20,13 @@ The Talidhay website is designed to showcase events, programs, and activities or
 ## Installation & Setup
 1. Clone the repository:
 
-   ---bash
    git clone https://github.com/Talidhay/Taliday-front.git
    
 3. Install Dependencies:
 
-    ---bash
    composer install
    npm install && npm run dev
    
 4. Run the developement server
 
-   ---bash
    npm run dev
