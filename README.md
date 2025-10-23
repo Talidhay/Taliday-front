@@ -2,7 +2,6 @@
 
 <img src="https://raw.githubusercontent.com/Talidhay/Taliday-front/main/assets/1.png" alt="Talidhay Logo" width="100"/>
 
-
 **Frontend repository for Talidhay**
 
 ## Description
