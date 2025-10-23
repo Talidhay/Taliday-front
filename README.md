@@ -1,8 +1,7 @@
 <h1 align= "center">Talidhay Website</h1>
 
-<p align="center">
-  <img src="./assets/1.png" alt="Talidhay Logo" width="100"/>
-</p>
+<img src="https://raw.githubusercontent.com/Talidhay/Taliday-front/main/assets/1.png" alt="Talidhay Logo" width="100"/>
+
 
 **Frontend repository for Talidhay**
 
@@ -20,14 +19,17 @@ The Talidhay website is designed to showcase events, programs, and activities or
 
 ## Installation & Setup
 1. Clone the repository:
-   
+
+   ---bash
    git clone https://github.com/Talidhay/Taliday-front.git
    
-2. Install Dependencies:
-   
+3. Install Dependencies:
+
+    ---bash
    composer install
    npm install && npm run dev
    
-3. Run the developement server
-   
+4. Run the developement server
+
+   ---bash
    npm run dev
