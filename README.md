@@ -1,27 +1,33 @@
-# Talidhay Website
+<h1 align= "center">Talidhay Website</h1>
 
-This is the frontend repository for the **Talidhay** website. It is built with React and uses npm for dependency management.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Talidhay/Taliday-front/main/logo.png" alt="Talidhay Logo" width="100"/>
+</p>
 
-## Table of Contents
-- [Installation](#installation)
-- [Running the Project](#running-the-project)
-- [Contributing](#contributing)
-- [License](#license)
+**Frontend repository for Talidhay**
 
-## Installation
+## Description
 
-1. **Clone the repository**
+The Talidhay website is designed to showcase events, programs, and activities organized by Talidhay. It provides a simple interface for visitors to explore information about Talidhay and its mission.
 
-```bash
-  git clone https://github.com/Talidhay/Taliday-front.git
+## Features
 
+- **Responsive Design**: Works on desktop and mobile devices.
+- **Event Gallery**: Displays images and details of community events.
+- **About Section**: Learn about Talidhay’s mission and team.
+- **Navigation Bar**: Easy access to different sections of the website.
+- **Fast Development**: Built with React and modern tools for efficient updates.
 
-2. **Navigate to the project directory**
-
-  cd Taliday-front
-
-3. Install dependencies
-
-  npm install
-  
-5. 
+## Installation & Setup
+1. Clone the repository:
+   
+   git clone https://github.com/Talidhay/Taliday-front.git
+   
+2. Install Dependencies:
+   
+   composer install
+   npm install && npm run dev
+   
+3. Run the developement server
+   
+   npm run dev
