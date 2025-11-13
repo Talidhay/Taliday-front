@@ -9,9 +9,12 @@ import GallerySection from "./components/GallerySection";
 import EventsSection from "./components/EventsSection";
 import EventsPage from "./components/EventsPage";
 import TeamSection from "./components/TeamSection";
+import TeamPage from "./components/TeamPage";
 import JoinUsSection from "./components/JoinUsSection";
 import Footer from "./components/Footer";
 import EventsView from "./components/EventsView";
+import JoinUsPage from "./components/JoinUsPage";
+import Donate from "./components/Donate";
 
 function App() {
   return (
@@ -34,6 +37,9 @@ function App() {
           <Route path="/aboutpage" element={<AboutPage />} />
           <Route path="/eventspage" element={<EventsPage />} />
           <Route path="/eventsview" element={<EventsView />} />
+          <Route path="/teampage" element={<TeamPage />} />
+          <Route path="/joinuspage" element={<JoinUsPage />} />
+          <Route path="/donate" element={<Donate />} />
         </Routes>
         <Footer />
       </div>

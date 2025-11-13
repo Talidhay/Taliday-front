@@ -9,10 +9,10 @@ const EventsPage = () => {
     <section id="eventspage" className="pt-40 bg-white">
       <div className="text-center mb-8 px-4 sm:px-0">
         <h2
-          className="text-2xl sm:text-3xl font-bold mb-4"
+          className="text-4xl sm:text-5xl font-bold mb-6"
           style={{ color: "#8F2901" }}
         >
-          <span>Moments that Move Us</span>
+          <span>Moments That Move Us</span>
         </h2>
         <p className="text-base leading-relaxed max-w-2xl mx-auto">
           Every Talidhay event, program, and activity is crafted to uplift,

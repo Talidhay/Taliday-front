@@ -3,6 +3,7 @@ import EventsViewDescription from "./EventsViewDescription";
 import EventsViewPromotions from "./EventsViewPromotions";
 import EventsViewGallery from "./EventsViewGallery";
 import EventsViewReport from "./EventsViewReport";
+import EventsViewOrganizers from "./EventsViewOrganizers";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -90,11 +91,7 @@ const EventsView = () => {
           {activeTab === "Promotions" && <EventsViewPromotions />}
           {activeTab === "Gallery" && <EventsViewGallery />}
           {activeTab === "Report" && <EventsViewReport />}
-          {activeTab === "Organizers" && (
-            <p className="text-gray-700 text-lg leading-relaxed text-center">
-              Organizers content goes here.
-            </p>
-          )}
+          {activeTab === "Organizers" && <EventsViewOrganizers />}
         </div>
       </div>
     </section>

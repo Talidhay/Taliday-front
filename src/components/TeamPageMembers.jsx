@@ -1,8 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
-
-const TeamSection = () => {
+const TeamPageMembers = () => {
   const teamMembers = [
     {
       id: 1,
@@ -43,24 +41,25 @@ const TeamSection = () => {
   ];
 
   return (
-    <section id="team" className="py-20 bg-white">
+    <section id="teampagemembers" className="pt-20 bg-white pb-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2
-            className="text-4xl sm:text-5xl font-bold mb-6"
+        {/* Section Header */}
+        <div className="mb-10 text-center">
+          <h3
+            className="text-2xl sm:text-3xl font-bold mb-4"
             style={{ color: "#8F2901" }}
           >
-            <span>The People Behind Talidhay</span>
-          </h2>
-          <p className="text-xl leading-relaxed max-w-4xl mx-auto">
-            Talidhay is made possible by a passionate team of volunteers,
-            organizers, and community builders. United by shared values and a
-            heart for service, our officers and members work together to turn
-            small acts into meaningful change—one initiative at a time.
+            The Members
+          </h3>
+          <p className="text-lg text-gray-700 leading-relaxed max-w-3xl mx-auto">
+            The heart of our movement. Talidhay’s members are the lifeblood of
+            our initiatives—active, compassionate, and collaborative. From ideas
+            to action, they bring energy and soul to everything we do.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+        {/* Officers Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {teamMembers.map((member) => (
             <div
               key={member.id}
@@ -77,29 +76,19 @@ const TeamSection = () => {
                 />
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                <h4 className="text-xl font-semibold text-gray-900 mb-2">
                   {member.name}
-                </h3>
-                <p className="text-indigo-600 font-medium mb-4">
+                </h4>
+                <p className="text-indigo-600 font-medium">
                   {member.role}
                 </p>
-                <p className=" leading-relaxed text-sm">{member.description}</p>
               </div>
             </div>
           ))}
-        </div>
-
-        <div className="text-center">
-          <Link
-            to="/teampage"
-            className="inline-block bg-gradient-to-r from-[#4B1E06] via-[#8F2901] to-[#4B1E06] text-white px-10 py-4 rounded-4xl font-bold text-lg hover:from-[#B05C24] hover:via-[#8F2901] hover:to-[#B05C24] transform hover:-translate-y-1 transition duration-300 shadow-lg hover:shadow-xl w-70 max-w-full"
-          >
-            See More
-          </Link>
         </div>
       </div>
     </section>
   );
 };
 
-export default TeamSection;
+export default TeamPageMembers;

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const JoinUsSection = () => {
   return (
@@ -22,47 +23,13 @@ const JoinUsSection = () => {
               you here at Talidhay. Sign up as a member or volunteer and help us
               continue spreading joy, one moment at a time.
             </p>
-
-            {/* <div className="space-y-6 mb-8">
-              <div className="flex items-center space-x-4">
-                <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center text-2xl backdrop-blur-md">
-                  🤝
-                </div>
-                <div>
-                  <h4 className="text-xl font-semibold mb-2">Connect</h4>
-                  <p className="text-indigo-100">
-                    Network with like-minded individuals
-                  </p>
-                </div>
-              </div>
-              <div className="flex items-center space-x-4">
-                <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center text-2xl backdrop-blur-md">
-                  📚
-                </div>
-                <div>
-                  <h4 className="text-xl font-semibold mb-2">Learn</h4>
-                  <p className="text-indigo-100">
-                    Access exclusive workshops and resources
-                  </p>
-                </div>
-              </div>
-              <div className="flex items-center space-x-4">
-                <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center text-2xl backdrop-blur-md">
-                  🌟
-                </div>
-                <div>
-                  <h4 className="text-xl font-semibold mb-2">Impact</h4>
-                  <p className="text-indigo-100">
-                    Make a real difference in your community
-                  </p>
-                </div>
-              </div>
-            </div> */}
-
             <div>
-              <button className="bg-gradient-to-r from-[#4B1E06] via-[#8F2901] to-[#4B1E06] text-white px-10 py-4 rounded-4xl font-bold text-lg hover:from-[#B05C24] hover:via-[#8F2901] hover:to-[#B05C24] transform hover:-translate-y-1 transition duration-300 shadow-lg hover:shadow-xl w-70 max-w-full">
-                Join Us Today
-              </button>
+              <Link
+                to="/joinuspage"
+                className="inline-block bg-gradient-to-r from-[#4B1E06] via-[#8F2901] to-[#4B1E06] text-white px-10 py-4 rounded-4xl font-bold text-lg hover:from-[#B05C24] hover:via-[#8F2901] hover:to-[#B05C24] transform hover:-translate-y-1 transition duration-300 shadow-lg hover:shadow-xl w-70 max-w-full"
+              >
+                <span className="block w-full text-center">Join Us Today</span>
+              </Link>
             </div>
           </div>
 
