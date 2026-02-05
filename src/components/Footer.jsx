@@ -81,7 +81,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="text-center text-gray-400 text-sm">
+          <div className="text-center text-white text-sm">
             <p>&copy; 2025 Talidhay. All rights reserved.</p>
           </div>
         </div>

@@ -37,18 +37,20 @@ const Navbar = () => {
           </div>
           {/* Right side nav items */}
           <div className="hidden md:flex space-x-10">
-            <a
-              href="#team"
-              className="text-white hover:text-[#FFD966] px-4 py-3 rounded-md text-base font-medium transition duration-300 hover:bg-[#8F2901]/30"
+            <Link
+              to="/teampage"
+              className="text-white hover:text-[#FFD966] block px-3 py-2 rounded-md text-base font-medium hover:bg-[#8F2901]/30"
+              onClick={() => setIsMenuOpen(false)}
             >
               OUR TEAM
-            </a>
-            <a
-              href="#register"
-              className="text-white hover:text-[#FFD966] px-4 py-3 rounded-md text-base font-medium transition duration-300 hover:bg-[#8F2901]/30"
+            </Link>
+            <Link
+              to="/joinuspage"
+              className="text-white hover:text-[#FFD966] block px-3 py-2 rounded-md text-base font-medium hover:bg-[#8F2901]/30"
+              onClick={() => setIsMenuOpen(false)}
             >
               REGISTER
-            </a>
+            </Link>
           </div>
           {/* Mobile menu button */}
           <div className="md:hidden">
@@ -101,20 +103,20 @@ const Navbar = () => {
             >
               EVENTS
             </Link>
-            <a
-              href="#team"
+            <Link
+              to="/teampage"
               className="text-white hover:text-[#FFD966] block px-3 py-2 rounded-md text-base font-medium hover:bg-[#8F2901]/30"
               onClick={() => setIsMenuOpen(false)}
             >
               OUR TEAM
-            </a>
-            <a
-              href="#register"
+            </Link>
+            <Link
+              to="/joinuspage"
               className="text-white hover:text-[#FFD966] block px-3 py-2 rounded-md text-base font-medium hover:bg-[#8F2901]/30"
               onClick={() => setIsMenuOpen(false)}
             >
               REGISTER
-            </a>
+            </Link>
           </div>
         </div>
       )}

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
@@ -6,7 +7,7 @@ const HeroSection = () => {
       id="home"
       className="min-h-screen flex items-center justify-center relative pt-16"
       style={{
-        backgroundImage: `url('/images/image 34.jpg')`, // Change to your image path
+        backgroundImage: `url('/images/image 34.jpg')`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
@@ -28,16 +29,17 @@ const HeroSection = () => {
           </p>
 
           {/* Card with text left and button right */}
-          <div className="w-full rounded-[3rem] max-w-xl bg-[#46522E]/80 rounded-4xl shadow-lg border-2 border-gray-300 flex flex-col sm:flex-row items-center justify-between px-4 py-3 gap-4 mb-4">
+          <div className="w-full rounded-[3rem] max-w-xl bg-[#46522E]/80 shadow-lg border-2 border-gray-300 flex flex-col sm:flex-row items-center justify-between px-4 py-3 gap-4 mb-4">
             <span className="ps-4 text-gray-100 text-lg font-medium text-center sm:text-left">
               Your kindness plants seeds of joy.
             </span>
-            <button
-              className="bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 px-8 py-4 rounded-4xl font-bold text-lg hover:from-yellow-500 hover:to-yellow-400 transform hover:-translate-y-1 transition duration-300 shadow-lg hover:shadow-xl w-full sm:w-auto"
-              style={{ color: "#8F2901" }}
+            <Link
+              to="/donate"
+              aria-label="Donate to Talidhay"
+              className="bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 px-8 py-4 rounded-4xl font-bold text-lg hover:from-yellow-500 hover:to-yellow-400 transform hover:-translate-y-1 transition duration-300 shadow-lg hover:shadow-xl w-full sm:w-auto text-[#8F2901]"
             >
-              DONATE
-            </button>
+              <span className="block w-full text-center">DONATE</span>
+            </Link>
           </div>
         </div>
       </div>
