@@ -36,6 +36,7 @@ function App() {
           />
           <Route path="/aboutpage" element={<AboutPage />} />
           <Route path="/eventspage" element={<EventsPage />} />
+          <Route path="/eventsview/:slug" element={<EventsView />} />
           <Route path="/eventsview" element={<EventsView />} />
           <Route path="/teampage" element={<TeamPage />} />
           <Route path="/joinuspage" element={<JoinUsPage />} />

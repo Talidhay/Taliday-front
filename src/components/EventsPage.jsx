@@ -1,10 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import EventsGrids from "./EventsGrids";
-import EventsNextPrev from "./EventsNextPrev";
 
 const EventsPage = () => {
+  const [query, setQuery] = useState("");
+  const [submitted, setSubmitted] = useState("");
+
+  const handleSearch = () => setSubmitted(query.trim());
+
+  const handleKeyDown = (e) => {
+    if (e.key === "Enter") handleSearch();
+  };
+
   return (
     <section id="eventspage" className="pt-40 bg-white">
       <div className="text-center mb-8 px-4 sm:px-0">
@@ -28,10 +36,13 @@ const EventsPage = () => {
         <input
           type="text"
           placeholder="Search..."
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          onKeyDown={handleKeyDown}
           className="flex-grow ps-3 text-lg font-medium text-left outline-none min-w-0"
-          style={{ opacity: 0.5 }}
         />
         <button
+          onClick={handleSearch}
           className="bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 px-4 py-3 rounded-full font-bold text-sm hover:from-yellow-500 hover:to-yellow-400 transform hover:-translate-y-1 transition duration-300 shadow-md hover:shadow-lg flex items-center justify-center"
           style={{ color: "#8F2901" }}
           aria-label="Search"
@@ -39,8 +50,7 @@ const EventsPage = () => {
           <FontAwesomeIcon icon={faSearch} />
         </button>
       </div>
-      <EventsGrids />
-      <EventsNextPrev />
+      <EventsGrids query={submitted} />
     </section>
   );
 };
