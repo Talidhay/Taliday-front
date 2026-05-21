@@ -24,7 +24,8 @@ const EventsView = () => {
   const event = events[currentIndex] ?? events[0];
 
   const prevEvent = currentIndex > 0 ? events[currentIndex - 1] : null;
-  const nextEvent = currentIndex < events.length - 1 ? events[currentIndex + 1] : null;
+  const nextEvent =
+    currentIndex < events.length - 1 ? events[currentIndex + 1] : null;
 
   return (
     <section id="eventsview" className="pt-40 bg-white">
@@ -113,9 +114,13 @@ const EventsView = () => {
         </div>
         {/* Tab Content */}
         <div className="overflow-hidden">
-          {activeTab === "Description" && <EventsViewDescription event={event} />}
+          {activeTab === "Description" && (
+            <EventsViewDescription event={event} />
+          )}
           {activeTab === "Promotions" && <EventsViewPromotions event={event} />}
-          {activeTab === "Gallery" && <EventsViewGallery images={event.gallery} />}
+          {activeTab === "Gallery" && (
+            <EventsViewGallery images={event.gallery} />
+          )}
           {activeTab === "Report" && <EventsViewReport event={event} />}
           {activeTab === "Organizers" && <EventsViewOrganizers event={event} />}
         </div>

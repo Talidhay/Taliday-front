@@ -16,7 +16,7 @@ const EventsGrids = ({ query = "" }) => {
     ? events.filter(
         (e) =>
           e.title.toLowerCase().includes(query.toLowerCase()) ||
-          e.tags.some((t) => t.toLowerCase().includes(query.toLowerCase()))
+          e.tags.some((t) => t.toLowerCase().includes(query.toLowerCase())),
       )
     : events;
 

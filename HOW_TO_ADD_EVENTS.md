@@ -7,6 +7,7 @@ This guide will walk you through adding a new event to the website. You don't ne
 ## Step 1 — Add Your Event Photos
 
 1. Go to this folder on your computer:
+
    ```
    public/images/Events/
    ```

@@ -7,7 +7,9 @@ const EventsViewReport = ({ event }) => {
     return (
       <section id="eventsviewreport" className="bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20 pt-3">
-          <p className="text-gray-400 text-center italic">Report coming soon.</p>
+          <p className="text-gray-400 text-center italic">
+            Report coming soon.
+          </p>
         </div>
       </section>
     );

@@ -23,7 +23,9 @@ const EventsViewGallery = ({ images = [] }) => {
     return (
       <section id="eventsviewgallery" className="bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20 pt-3">
-          <p className="text-gray-400 text-center italic">Gallery coming soon.</p>
+          <p className="text-gray-400 text-center italic">
+            Gallery coming soon.
+          </p>
         </div>
       </section>
     );
@@ -56,7 +58,10 @@ const EventsViewGallery = ({ images = [] }) => {
         >
           <button
             className="absolute top-6 right-8 text-white text-3xl focus:outline-none"
-            onClick={(e) => { e.stopPropagation(); setZoomedIdx(null); }}
+            onClick={(e) => {
+              e.stopPropagation();
+              setZoomedIdx(null);
+            }}
             aria-label="Close"
           >
             <FontAwesomeIcon icon={faTimes} />
@@ -94,24 +99,63 @@ const _eventGalleries = [
   {
     title: "Art From The Heart",
     images: [
-      { src: "/images/Events/Art_From_The_Heart_021525/26.JPG", alt: "Art From The Heart 1" },
-      { src: "/images/Events/Art_From_The_Heart_021525/27.jpg", alt: "Art From The Heart 2" },
-      { src: "/images/Events/Art_From_The_Heart_021525/28.jpg", alt: "Art From The Heart 3" },
-      { src: "/images/Events/Art_From_The_Heart_021525/29.jpg", alt: "Art From The Heart 4" },
-      { src: "/images/Events/Art_From_The_Heart_021525/30.jpg", alt: "Art From The Heart 5" },
-      { src: "/images/Events/Art_From_The_Heart_021525/31.jpg", alt: "Art From The Heart 6" },
-      { src: "/images/Events/Art_From_The_Heart_021525/32.jpg", alt: "Art From The Heart 7" },
-      { src: "/images/Events/Art_From_The_Heart_021525/33.jpg", alt: "Art From The Heart 8" },
+      {
+        src: "/images/Events/Art_From_The_Heart_021525/26.JPG",
+        alt: "Art From The Heart 1",
+      },
+      {
+        src: "/images/Events/Art_From_The_Heart_021525/27.jpg",
+        alt: "Art From The Heart 2",
+      },
+      {
+        src: "/images/Events/Art_From_The_Heart_021525/28.jpg",
+        alt: "Art From The Heart 3",
+      },
+      {
+        src: "/images/Events/Art_From_The_Heart_021525/29.jpg",
+        alt: "Art From The Heart 4",
+      },
+      {
+        src: "/images/Events/Art_From_The_Heart_021525/30.jpg",
+        alt: "Art From The Heart 5",
+      },
+      {
+        src: "/images/Events/Art_From_The_Heart_021525/31.jpg",
+        alt: "Art From The Heart 6",
+      },
+      {
+        src: "/images/Events/Art_From_The_Heart_021525/32.jpg",
+        alt: "Art From The Heart 7",
+      },
+      {
+        src: "/images/Events/Art_From_The_Heart_021525/33.jpg",
+        alt: "Art From The Heart 8",
+      },
     ],
   },
   {
     title: "A Timeless Carol",
     images: [
-      { src: "/images/Events/A_Timeless_Carol_122725/img1.jpg", alt: "A Timeless Carol 1" },
-      { src: "/images/Events/A_Timeless_Carol_122725/img2.jpg", alt: "A Timeless Carol 2" },
-      { src: "/images/Events/A_Timeless_Carol_122725/img3.jpg", alt: "A Timeless Carol 3" },
-      { src: "/images/Events/A_Timeless_Carol_122725/img4.jpg", alt: "A Timeless Carol 4" },
-      { src: "/images/Events/A_Timeless_Carol_122725/img5.jpg", alt: "A Timeless Carol 5" },
+      {
+        src: "/images/Events/A_Timeless_Carol_122725/img1.jpg",
+        alt: "A Timeless Carol 1",
+      },
+      {
+        src: "/images/Events/A_Timeless_Carol_122725/img2.jpg",
+        alt: "A Timeless Carol 2",
+      },
+      {
+        src: "/images/Events/A_Timeless_Carol_122725/img3.jpg",
+        alt: "A Timeless Carol 3",
+      },
+      {
+        src: "/images/Events/A_Timeless_Carol_122725/img4.jpg",
+        alt: "A Timeless Carol 4",
+      },
+      {
+        src: "/images/Events/A_Timeless_Carol_122725/img5.jpg",
+        alt: "A Timeless Carol 5",
+      },
     ],
   },
   {
@@ -127,81 +171,201 @@ const _eventGalleries = [
   {
     title: "Bata! Bata! Laro Tayo!",
     images: [
-      { src: "/images/Events/BataBataLaroTayo_061425/082106.jpg", alt: "Bata Bata Laro Tayo 1" },
-      { src: "/images/Events/BataBataLaroTayo_061425/082107.jpg", alt: "Bata Bata Laro Tayo 2" },
-      { src: "/images/Events/BataBataLaroTayo_061425/082115.jpg", alt: "Bata Bata Laro Tayo 3" },
-      { src: "/images/Events/BataBataLaroTayo_061425/082118.jpg", alt: "Bata Bata Laro Tayo 4" },
-      { src: "/images/Events/BataBataLaroTayo_061425/108.jpg", alt: "Bata Bata Laro Tayo 5" },
+      {
+        src: "/images/Events/BataBataLaroTayo_061425/082106.jpg",
+        alt: "Bata Bata Laro Tayo 1",
+      },
+      {
+        src: "/images/Events/BataBataLaroTayo_061425/082107.jpg",
+        alt: "Bata Bata Laro Tayo 2",
+      },
+      {
+        src: "/images/Events/BataBataLaroTayo_061425/082115.jpg",
+        alt: "Bata Bata Laro Tayo 3",
+      },
+      {
+        src: "/images/Events/BataBataLaroTayo_061425/082118.jpg",
+        alt: "Bata Bata Laro Tayo 4",
+      },
+      {
+        src: "/images/Events/BataBataLaroTayo_061425/108.jpg",
+        alt: "Bata Bata Laro Tayo 5",
+      },
     ],
   },
   {
     title: "BrewKada Hub (April 2025)",
     images: [
-      { src: "/images/Events/BrewKadaHub_041225/151324.jpg", alt: "BrewKada Hub Apr 1" },
-      { src: "/images/Events/BrewKadaHub_041225/151327.jpg", alt: "BrewKada Hub Apr 2" },
-      { src: "/images/Events/BrewKadaHub_041225/151328.jpg", alt: "BrewKada Hub Apr 3" },
-      { src: "/images/Events/BrewKadaHub_041225/151331.jpg", alt: "BrewKada Hub Apr 4" },
-      { src: "/images/Events/BrewKadaHub_041225/151332.jpg", alt: "BrewKada Hub Apr 5" },
+      {
+        src: "/images/Events/BrewKadaHub_041225/151324.jpg",
+        alt: "BrewKada Hub Apr 1",
+      },
+      {
+        src: "/images/Events/BrewKadaHub_041225/151327.jpg",
+        alt: "BrewKada Hub Apr 2",
+      },
+      {
+        src: "/images/Events/BrewKadaHub_041225/151328.jpg",
+        alt: "BrewKada Hub Apr 3",
+      },
+      {
+        src: "/images/Events/BrewKadaHub_041225/151331.jpg",
+        alt: "BrewKada Hub Apr 4",
+      },
+      {
+        src: "/images/Events/BrewKadaHub_041225/151332.jpg",
+        alt: "BrewKada Hub Apr 5",
+      },
     ],
   },
   {
     title: "BrewKada Hub (November 2025)",
     images: [
-      { src: "/images/Events/BrewKadaHub_1125/1.jpeg", alt: "BrewKada Hub Nov 1" },
-      { src: "/images/Events/BrewKadaHub_1125/2.jpeg", alt: "BrewKada Hub Nov 2" },
-      { src: "/images/Events/BrewKadaHub_1125/3.jpeg", alt: "BrewKada Hub Nov 3" },
-      { src: "/images/Events/BrewKadaHub_1125/4.HEIC", alt: "BrewKada Hub Nov 4" },
-      { src: "/images/Events/BrewKadaHub_1125/5.HEIC", alt: "BrewKada Hub Nov 5" },
+      {
+        src: "/images/Events/BrewKadaHub_1125/1.jpeg",
+        alt: "BrewKada Hub Nov 1",
+      },
+      {
+        src: "/images/Events/BrewKadaHub_1125/2.jpeg",
+        alt: "BrewKada Hub Nov 2",
+      },
+      {
+        src: "/images/Events/BrewKadaHub_1125/3.jpeg",
+        alt: "BrewKada Hub Nov 3",
+      },
+      {
+        src: "/images/Events/BrewKadaHub_1125/4.HEIC",
+        alt: "BrewKada Hub Nov 4",
+      },
+      {
+        src: "/images/Events/BrewKadaHub_1125/5.HEIC",
+        alt: "BrewKada Hub Nov 5",
+      },
     ],
   },
   {
     title: "Cheerful Draw 2025",
     images: [
-      { src: "/images/Events/CheerfulDraw_25/1.jpeg", alt: "Cheerful Draw 2025 1" },
-      { src: "/images/Events/CheerfulDraw_25/0388.HEIC", alt: "Cheerful Draw 2025 2" },
-      { src: "/images/Events/CheerfulDraw_25/0389.HEIC", alt: "Cheerful Draw 2025 3" },
-      { src: "/images/Events/CheerfulDraw_25/0390.HEIC", alt: "Cheerful Draw 2025 4" },
-      { src: "/images/Events/CheerfulDraw_25/0391.HEIC", alt: "Cheerful Draw 2025 5" },
+      {
+        src: "/images/Events/CheerfulDraw_25/1.jpeg",
+        alt: "Cheerful Draw 2025 1",
+      },
+      {
+        src: "/images/Events/CheerfulDraw_25/0388.HEIC",
+        alt: "Cheerful Draw 2025 2",
+      },
+      {
+        src: "/images/Events/CheerfulDraw_25/0389.HEIC",
+        alt: "Cheerful Draw 2025 3",
+      },
+      {
+        src: "/images/Events/CheerfulDraw_25/0390.HEIC",
+        alt: "Cheerful Draw 2025 4",
+      },
+      {
+        src: "/images/Events/CheerfulDraw_25/0391.HEIC",
+        alt: "Cheerful Draw 2025 5",
+      },
     ],
   },
   {
     title: "Cheerful Draw 2024",
     images: [
-      { src: "/images/Events/Cheerful_Draw_2024/1.jpg", alt: "Cheerful Draw 2024 1" },
-      { src: "/images/Events/Cheerful_Draw_2024/2.jpg", alt: "Cheerful Draw 2024 2" },
-      { src: "/images/Events/Cheerful_Draw_2024/3.jpg", alt: "Cheerful Draw 2024 3" },
-      { src: "/images/Events/Cheerful_Draw_2024/4.jpg", alt: "Cheerful Draw 2024 4" },
-      { src: "/images/Events/Cheerful_Draw_2024/5.jpg", alt: "Cheerful Draw 2024 5" },
+      {
+        src: "/images/Events/Cheerful_Draw_2024/1.jpg",
+        alt: "Cheerful Draw 2024 1",
+      },
+      {
+        src: "/images/Events/Cheerful_Draw_2024/2.jpg",
+        alt: "Cheerful Draw 2024 2",
+      },
+      {
+        src: "/images/Events/Cheerful_Draw_2024/3.jpg",
+        alt: "Cheerful Draw 2024 3",
+      },
+      {
+        src: "/images/Events/Cheerful_Draw_2024/4.jpg",
+        alt: "Cheerful Draw 2024 4",
+      },
+      {
+        src: "/images/Events/Cheerful_Draw_2024/5.jpg",
+        alt: "Cheerful Draw 2024 5",
+      },
     ],
   },
   {
     title: "Donation Drive: Daan Tubo",
     images: [
-      { src: "/images/Events/Donation_Drive/DaanTubo/1.jpg", alt: "Daan Tubo 1" },
-      { src: "/images/Events/Donation_Drive/DaanTubo/2.jpg", alt: "Daan Tubo 2" },
-      { src: "/images/Events/Donation_Drive/DaanTubo/3.jpg", alt: "Daan Tubo 3" },
-      { src: "/images/Events/Donation_Drive/DaanTubo/4.jpg", alt: "Daan Tubo 4" },
-      { src: "/images/Events/Donation_Drive/DaanTubo/5.jpg", alt: "Daan Tubo 5" },
+      {
+        src: "/images/Events/Donation_Drive/DaanTubo/1.jpg",
+        alt: "Daan Tubo 1",
+      },
+      {
+        src: "/images/Events/Donation_Drive/DaanTubo/2.jpg",
+        alt: "Daan Tubo 2",
+      },
+      {
+        src: "/images/Events/Donation_Drive/DaanTubo/3.jpg",
+        alt: "Daan Tubo 3",
+      },
+      {
+        src: "/images/Events/Donation_Drive/DaanTubo/4.jpg",
+        alt: "Daan Tubo 4",
+      },
+      {
+        src: "/images/Events/Donation_Drive/DaanTubo/5.jpg",
+        alt: "Daan Tubo 5",
+      },
     ],
   },
   {
     title: "Donation Drive: Happyland Tondo",
     images: [
-      { src: "/images/Events/Donation_Drive/HappylandTondo/1.jpg", alt: "Happyland Tondo 1" },
-      { src: "/images/Events/Donation_Drive/HappylandTondo/2.jpg", alt: "Happyland Tondo 2" },
-      { src: "/images/Events/Donation_Drive/HappylandTondo/3.jpg", alt: "Happyland Tondo 3" },
-      { src: "/images/Events/Donation_Drive/HappylandTondo/4.jpg", alt: "Happyland Tondo 4" },
-      { src: "/images/Events/Donation_Drive/HappylandTondo/5.jpg", alt: "Happyland Tondo 5" },
+      {
+        src: "/images/Events/Donation_Drive/HappylandTondo/1.jpg",
+        alt: "Happyland Tondo 1",
+      },
+      {
+        src: "/images/Events/Donation_Drive/HappylandTondo/2.jpg",
+        alt: "Happyland Tondo 2",
+      },
+      {
+        src: "/images/Events/Donation_Drive/HappylandTondo/3.jpg",
+        alt: "Happyland Tondo 3",
+      },
+      {
+        src: "/images/Events/Donation_Drive/HappylandTondo/4.jpg",
+        alt: "Happyland Tondo 4",
+      },
+      {
+        src: "/images/Events/Donation_Drive/HappylandTondo/5.jpg",
+        alt: "Happyland Tondo 5",
+      },
     ],
   },
   {
     title: "Donation Drive: Typhoon Kristene",
     images: [
-      { src: "/images/Events/Donation_Drive/TyphoonKristene/1.jpg", alt: "Typhoon Kristene 1" },
-      { src: "/images/Events/Donation_Drive/TyphoonKristene/2.jpg", alt: "Typhoon Kristene 2" },
-      { src: "/images/Events/Donation_Drive/TyphoonKristene/3.jpg", alt: "Typhoon Kristene 3" },
-      { src: "/images/Events/Donation_Drive/TyphoonKristene/4.jpg", alt: "Typhoon Kristene 4" },
-      { src: "/images/Events/Donation_Drive/TyphoonKristene/5.jpg", alt: "Typhoon Kristene 5" },
+      {
+        src: "/images/Events/Donation_Drive/TyphoonKristene/1.jpg",
+        alt: "Typhoon Kristene 1",
+      },
+      {
+        src: "/images/Events/Donation_Drive/TyphoonKristene/2.jpg",
+        alt: "Typhoon Kristene 2",
+      },
+      {
+        src: "/images/Events/Donation_Drive/TyphoonKristene/3.jpg",
+        alt: "Typhoon Kristene 3",
+      },
+      {
+        src: "/images/Events/Donation_Drive/TyphoonKristene/4.jpg",
+        alt: "Typhoon Kristene 4",
+      },
+      {
+        src: "/images/Events/Donation_Drive/TyphoonKristene/5.jpg",
+        alt: "Typhoon Kristene 5",
+      },
     ],
   },
   {
