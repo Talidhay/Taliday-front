@@ -6,30 +6,97 @@ export const events = [
     slug: "art-from-the-heart",
     title: "Art From The Heart",
     date: "February 15, 2025",
-    tags: ["#ArtFromTheHeart", "#ChalkPaint", "#HaveFunDay"],
+    tags: ["#ArtFromTheHeart", "#Talidhay", "#ValentinesDay", "#KidsArt"],
     coverImage: "/images/Events/Art_From_The_Heart_021525/33.jpg",
     gallery: [
-      { src: "/images/Events/Art_From_The_Heart_021525/26.JPG", alt: "Art From The Heart 1" },
-      { src: "/images/Events/Art_From_The_Heart_021525/27.jpg", alt: "Art From The Heart 2" },
-      { src: "/images/Events/Art_From_The_Heart_021525/28.jpg", alt: "Art From The Heart 3" },
-      { src: "/images/Events/Art_From_The_Heart_021525/29.jpg", alt: "Art From The Heart 4" },
-      { src: "/images/Events/Art_From_The_Heart_021525/30.jpg", alt: "Art From The Heart 5" },
-      { src: "/images/Events/Art_From_The_Heart_021525/31.jpg", alt: "Art From The Heart 6" },
-      { src: "/images/Events/Art_From_The_Heart_021525/32.jpg", alt: "Art From The Heart 7" },
-      { src: "/images/Events/Art_From_The_Heart_021525/33.jpg", alt: "Art From The Heart 8" },
+      {
+        src: "/images/Events/Art_From_The_Heart_021525/26.JPG",
+        alt: "Art From The Heart 1",
+      },
+      {
+        src: "/images/Events/Art_From_The_Heart_021525/27.jpg",
+        alt: "Art From The Heart 2",
+      },
+      {
+        src: "/images/Events/Art_From_The_Heart_021525/28.jpg",
+        alt: "Art From The Heart 3",
+      },
+      {
+        src: "/images/Events/Art_From_The_Heart_021525/29.jpg",
+        alt: "Art From The Heart 4",
+      },
+      {
+        src: "/images/Events/Art_From_The_Heart_021525/30.jpg",
+        alt: "Art From The Heart 5",
+      },
+      {
+        src: "/images/Events/Art_From_The_Heart_021525/31.jpg",
+        alt: "Art From The Heart 6",
+      },
+      {
+        src: "/images/Events/Art_From_The_Heart_021525/32.jpg",
+        alt: "Art From The Heart 7",
+      },
+      {
+        src: "/images/Events/Art_From_The_Heart_021525/33.jpg",
+        alt: "Art From The Heart 8",
+      },
     ],
     promotions: [
-      { href: "https://www.facebook.com/share/p/1EyCRZEabe/", img: "/images/Events/Art_From_The_Heart_021525/29.jpg", text: "View on Facebook" },
-      { href: "https://www.facebook.com/share/p/1EyCRZEabe/", img: "/images/Events/Art_From_The_Heart_021525/30.jpg", text: "View on Facebook" },
+      {
+        href: "https://www.facebook.com/share/p/1EyCRZEabe/",
+        img: "/images/Events/Art_From_The_Heart_021525/29.jpg",
+        text: "View on Facebook",
+      },
+      {
+        href: "https://www.facebook.com/share/p/1EyCRZEabe/",
+        img: "/images/Events/Art_From_The_Heart_021525/30.jpg",
+        text: "View on Facebook",
+      },
     ],
     report: [
-      { href: "https://www.facebook.com/share/p/1EyCRZEabe/", img: "/images/Events/Art_From_The_Heart_021525/31.jpg", text: "View Report" },
-      { href: "https://www.facebook.com/share/p/1EyCRZEabe/", img: "/images/Events/Art_From_The_Heart_021525/32.jpg", text: "View Report" },
+      {
+        href: "https://www.facebook.com/share/p/1EyCRZEabe/",
+        img: "/images/Events/Art_From_The_Heart_021525/31.jpg",
+        text: "View Report",
+      },
+      {
+        href: "https://www.facebook.com/share/p/1EyCRZEabe/",
+        img: "/images/Events/Art_From_The_Heart_021525/32.jpg",
+        text: "View Report",
+      },
     ],
     organizers: [
-      { img: "/images/Events/Art_From_The_Heart_021525/26.JPG", title: "Name", description: "Role" },
-      { img: "/images/Events/Art_From_The_Heart_021525/26.JPG", title: "Name", description: "Role" },
-      { img: "/images/Events/Art_From_The_Heart_021525/26.JPG", title: "Name", description: "Role" },
+      {
+        img: "/images/Events/Art_From_The_Heart_021525/26.JPG",
+        title: "Julia Marie Ladrera",
+        description: "President",
+      },
+      {
+        img: "/images/Events/Art_From_The_Heart_021525/26.JPG",
+        title: "Name",
+        description: "Role",
+      },
+      {
+        img: "/images/Events/Art_From_The_Heart_021525/26.JPG",
+        title: "Name",
+        description: "Role",
+      },
+      {
+        img: "/images/Events/Art_From_The_Heart_021525/26.JPG",
+        title: "Name",
+        description: "Role",
+      },
+      {
+        img: "/images/Events/Art_From_The_Heart_021525/26.JPG",
+        title: "Name",
+        description: "Role",
+      },
+      {
+        img: "/images/Events/Art_From_The_Heart_021525/26.JPG",
+        title: "Name",
+        description: "Role",
+      },
     ],
     description: `On February 15, 2025, the Talidhay team successfully launched their community event, Art From the Heart, at Barangay Amihan. The event was designed to create a space for young children to express themselves through art, and it became a lively gathering filled with creativity and joy.\n\nPresent during the event were core organizers: Julia Marie Ladrera (President), Tania Virgino (Vice President), Marylyne Vargas (Secretary), Angel Macabale (Treasurer), Abigail Macabale (VCCC), Cyril Lagdameo (MDC), Mark Benlot (FWC), Joshua Ladion (FWC), Aya Africano (MDC), and Markus Bernales (volunteer). Despite the initial plan to begin at 2:00 PM, the event officially started at 2:30 PM and ran until 5:00 PM.\n\nThe activity welcomed an initial set of 50 kids aged 9 and below. By the end of the program, 45 children participated fully, engaging with the art materials and enjoying the atmosphere curated by the team.\n\nThe team's collective efforts were visible in every corner: from colorful decorations to thoughtful logistics like seating arrangements, program hosting, and facilitation of materials. Roles were distributed effectively, with documentation handled by Cyril and Aya, games and energizers coordinated by Joshua, Julia, and Markus, registration managed by Mark and Abi, and ushering done by Jeng and Len. Tania also delivered a warm announcement to the community, setting the tone for a fun and meaningful afternoon.\n\nAs the event concluded, the Talidhay team was filled with a sense of accomplishment. "Art From the Heart" ended not just as an event but as a heartfelt celebration of creativity, connection, and service.`,
   },
@@ -40,11 +107,26 @@ export const events = [
     tags: ["#ATimelessCarol", "#Talidhay", "#Community"],
     coverImage: "/images/Events/A_Timeless_Carol_122725/img1.jpg",
     gallery: [
-      { src: "/images/Events/A_Timeless_Carol_122725/img1.jpg", alt: "A Timeless Carol 1" },
-      { src: "/images/Events/A_Timeless_Carol_122725/img2.jpg", alt: "A Timeless Carol 2" },
-      { src: "/images/Events/A_Timeless_Carol_122725/img3.jpg", alt: "A Timeless Carol 3" },
-      { src: "/images/Events/A_Timeless_Carol_122725/img4.jpg", alt: "A Timeless Carol 4" },
-      { src: "/images/Events/A_Timeless_Carol_122725/img5.jpg", alt: "A Timeless Carol 5" },
+      {
+        src: "/images/Events/A_Timeless_Carol_122725/img1.jpg",
+        alt: "A Timeless Carol 1",
+      },
+      {
+        src: "/images/Events/A_Timeless_Carol_122725/img2.jpg",
+        alt: "A Timeless Carol 2",
+      },
+      {
+        src: "/images/Events/A_Timeless_Carol_122725/img3.jpg",
+        alt: "A Timeless Carol 3",
+      },
+      {
+        src: "/images/Events/A_Timeless_Carol_122725/img4.jpg",
+        alt: "A Timeless Carol 4",
+      },
+      {
+        src: "/images/Events/A_Timeless_Carol_122725/img5.jpg",
+        alt: "A Timeless Carol 5",
+      },
     ],
     promotions: [],
     report: [],
@@ -76,11 +158,26 @@ export const events = [
     tags: ["#BataBataLaroTayo", "#Talidhay", "#PlayDay"],
     coverImage: "/images/Events/BataBataLaroTayo_061425/082106.jpg",
     gallery: [
-      { src: "/images/Events/BataBataLaroTayo_061425/082106.jpg", alt: "Bata Bata Laro Tayo 1" },
-      { src: "/images/Events/BataBataLaroTayo_061425/082107.jpg", alt: "Bata Bata Laro Tayo 2" },
-      { src: "/images/Events/BataBataLaroTayo_061425/082115.jpg", alt: "Bata Bata Laro Tayo 3" },
-      { src: "/images/Events/BataBataLaroTayo_061425/082118.jpg", alt: "Bata Bata Laro Tayo 4" },
-      { src: "/images/Events/BataBataLaroTayo_061425/108.jpg", alt: "Bata Bata Laro Tayo 5" },
+      {
+        src: "/images/Events/BataBataLaroTayo_061425/082106.jpg",
+        alt: "Bata Bata Laro Tayo 1",
+      },
+      {
+        src: "/images/Events/BataBataLaroTayo_061425/082107.jpg",
+        alt: "Bata Bata Laro Tayo 2",
+      },
+      {
+        src: "/images/Events/BataBataLaroTayo_061425/082115.jpg",
+        alt: "Bata Bata Laro Tayo 3",
+      },
+      {
+        src: "/images/Events/BataBataLaroTayo_061425/082118.jpg",
+        alt: "Bata Bata Laro Tayo 4",
+      },
+      {
+        src: "/images/Events/BataBataLaroTayo_061425/108.jpg",
+        alt: "Bata Bata Laro Tayo 5",
+      },
     ],
     promotions: [],
     report: [],
@@ -94,11 +191,26 @@ export const events = [
     tags: ["#BrewKadaHub", "#Talidhay", "#Coffee"],
     coverImage: "/images/Events/BrewKadaHub_041225/151324.jpg",
     gallery: [
-      { src: "/images/Events/BrewKadaHub_041225/151324.jpg", alt: "BrewKada Hub Apr 1" },
-      { src: "/images/Events/BrewKadaHub_041225/151327.jpg", alt: "BrewKada Hub Apr 2" },
-      { src: "/images/Events/BrewKadaHub_041225/151328.jpg", alt: "BrewKada Hub Apr 3" },
-      { src: "/images/Events/BrewKadaHub_041225/151331.jpg", alt: "BrewKada Hub Apr 4" },
-      { src: "/images/Events/BrewKadaHub_041225/151332.jpg", alt: "BrewKada Hub Apr 5" },
+      {
+        src: "/images/Events/BrewKadaHub_041225/151324.jpg",
+        alt: "BrewKada Hub Apr 1",
+      },
+      {
+        src: "/images/Events/BrewKadaHub_041225/151327.jpg",
+        alt: "BrewKada Hub Apr 2",
+      },
+      {
+        src: "/images/Events/BrewKadaHub_041225/151328.jpg",
+        alt: "BrewKada Hub Apr 3",
+      },
+      {
+        src: "/images/Events/BrewKadaHub_041225/151331.jpg",
+        alt: "BrewKada Hub Apr 4",
+      },
+      {
+        src: "/images/Events/BrewKadaHub_041225/151332.jpg",
+        alt: "BrewKada Hub Apr 5",
+      },
     ],
     promotions: [],
     report: [],
@@ -112,11 +224,26 @@ export const events = [
     tags: ["#BrewKadaHub", "#Talidhay", "#Coffee"],
     coverImage: "/images/Events/BrewKadaHub_1125/1.jpeg",
     gallery: [
-      { src: "/images/Events/BrewKadaHub_1125/1.jpeg", alt: "BrewKada Hub Nov 1" },
-      { src: "/images/Events/BrewKadaHub_1125/2.jpeg", alt: "BrewKada Hub Nov 2" },
-      { src: "/images/Events/BrewKadaHub_1125/3.jpeg", alt: "BrewKada Hub Nov 3" },
-      { src: "/images/Events/BrewKadaHub_1125/4.jpg", alt: "BrewKada Hub Nov 4" },
-      { src: "/images/Events/BrewKadaHub_1125/5.jpg", alt: "BrewKada Hub Nov 5" },
+      {
+        src: "/images/Events/BrewKadaHub_1125/1.jpeg",
+        alt: "BrewKada Hub Nov 1",
+      },
+      {
+        src: "/images/Events/BrewKadaHub_1125/2.jpeg",
+        alt: "BrewKada Hub Nov 2",
+      },
+      {
+        src: "/images/Events/BrewKadaHub_1125/3.jpeg",
+        alt: "BrewKada Hub Nov 3",
+      },
+      {
+        src: "/images/Events/BrewKadaHub_1125/4.jpg",
+        alt: "BrewKada Hub Nov 4",
+      },
+      {
+        src: "/images/Events/BrewKadaHub_1125/5.jpg",
+        alt: "BrewKada Hub Nov 5",
+      },
     ],
     promotions: [],
     report: [],
@@ -130,11 +257,26 @@ export const events = [
     tags: ["#CheerfulDraw", "#Talidhay", "#Art"],
     coverImage: "/images/Events/CheerfulDraw_25/1.jpeg",
     gallery: [
-      { src: "/images/Events/CheerfulDraw_25/1.jpeg", alt: "Cheerful Draw 2025 1" },
-      { src: "/images/Events/CheerfulDraw_25/0388.jpg", alt: "Cheerful Draw 2025 2" },
-      { src: "/images/Events/CheerfulDraw_25/0389.jpg", alt: "Cheerful Draw 2025 3" },
-      { src: "/images/Events/CheerfulDraw_25/0390.jpg", alt: "Cheerful Draw 2025 4" },
-      { src: "/images/Events/CheerfulDraw_25/0391.jpg", alt: "Cheerful Draw 2025 5" },
+      {
+        src: "/images/Events/CheerfulDraw_25/1.jpeg",
+        alt: "Cheerful Draw 2025 1",
+      },
+      {
+        src: "/images/Events/CheerfulDraw_25/0388.jpg",
+        alt: "Cheerful Draw 2025 2",
+      },
+      {
+        src: "/images/Events/CheerfulDraw_25/0389.jpg",
+        alt: "Cheerful Draw 2025 3",
+      },
+      {
+        src: "/images/Events/CheerfulDraw_25/0390.jpg",
+        alt: "Cheerful Draw 2025 4",
+      },
+      {
+        src: "/images/Events/CheerfulDraw_25/0391.jpg",
+        alt: "Cheerful Draw 2025 5",
+      },
     ],
     promotions: [],
     report: [],
@@ -148,11 +290,26 @@ export const events = [
     tags: ["#CheerfulDraw", "#Talidhay", "#Art"],
     coverImage: "/images/Events/Cheerful_Draw_2024/1.jpg",
     gallery: [
-      { src: "/images/Events/Cheerful_Draw_2024/1.jpg", alt: "Cheerful Draw 2024 1" },
-      { src: "/images/Events/Cheerful_Draw_2024/2.jpg", alt: "Cheerful Draw 2024 2" },
-      { src: "/images/Events/Cheerful_Draw_2024/3.jpg", alt: "Cheerful Draw 2024 3" },
-      { src: "/images/Events/Cheerful_Draw_2024/4.jpg", alt: "Cheerful Draw 2024 4" },
-      { src: "/images/Events/Cheerful_Draw_2024/5.jpg", alt: "Cheerful Draw 2024 5" },
+      {
+        src: "/images/Events/Cheerful_Draw_2024/1.jpg",
+        alt: "Cheerful Draw 2024 1",
+      },
+      {
+        src: "/images/Events/Cheerful_Draw_2024/2.jpg",
+        alt: "Cheerful Draw 2024 2",
+      },
+      {
+        src: "/images/Events/Cheerful_Draw_2024/3.jpg",
+        alt: "Cheerful Draw 2024 3",
+      },
+      {
+        src: "/images/Events/Cheerful_Draw_2024/4.jpg",
+        alt: "Cheerful Draw 2024 4",
+      },
+      {
+        src: "/images/Events/Cheerful_Draw_2024/5.jpg",
+        alt: "Cheerful Draw 2024 5",
+      },
     ],
     promotions: [],
     report: [],
@@ -166,11 +323,26 @@ export const events = [
     tags: ["#DonationDrive", "#DaanTubo", "#Talidhay"],
     coverImage: "/images/Events/Donation_Drive/DaanTubo/1.jpg",
     gallery: [
-      { src: "/images/Events/Donation_Drive/DaanTubo/1.jpg", alt: "Daan Tubo 1" },
-      { src: "/images/Events/Donation_Drive/DaanTubo/2.jpg", alt: "Daan Tubo 2" },
-      { src: "/images/Events/Donation_Drive/DaanTubo/3.jpg", alt: "Daan Tubo 3" },
-      { src: "/images/Events/Donation_Drive/DaanTubo/4.jpg", alt: "Daan Tubo 4" },
-      { src: "/images/Events/Donation_Drive/DaanTubo/5.jpg", alt: "Daan Tubo 5" },
+      {
+        src: "/images/Events/Donation_Drive/DaanTubo/1.jpg",
+        alt: "Daan Tubo 1",
+      },
+      {
+        src: "/images/Events/Donation_Drive/DaanTubo/2.jpg",
+        alt: "Daan Tubo 2",
+      },
+      {
+        src: "/images/Events/Donation_Drive/DaanTubo/3.jpg",
+        alt: "Daan Tubo 3",
+      },
+      {
+        src: "/images/Events/Donation_Drive/DaanTubo/4.jpg",
+        alt: "Daan Tubo 4",
+      },
+      {
+        src: "/images/Events/Donation_Drive/DaanTubo/5.jpg",
+        alt: "Daan Tubo 5",
+      },
     ],
     promotions: [],
     report: [],
@@ -184,11 +356,26 @@ export const events = [
     tags: ["#DonationDrive", "#HappylandTondo", "#Talidhay"],
     coverImage: "/images/Events/Donation_Drive/HappylandTondo/1.jpg",
     gallery: [
-      { src: "/images/Events/Donation_Drive/HappylandTondo/1.jpg", alt: "Happyland Tondo 1" },
-      { src: "/images/Events/Donation_Drive/HappylandTondo/2.jpg", alt: "Happyland Tondo 2" },
-      { src: "/images/Events/Donation_Drive/HappylandTondo/3.jpg", alt: "Happyland Tondo 3" },
-      { src: "/images/Events/Donation_Drive/HappylandTondo/4.jpg", alt: "Happyland Tondo 4" },
-      { src: "/images/Events/Donation_Drive/HappylandTondo/5.jpg", alt: "Happyland Tondo 5" },
+      {
+        src: "/images/Events/Donation_Drive/HappylandTondo/1.jpg",
+        alt: "Happyland Tondo 1",
+      },
+      {
+        src: "/images/Events/Donation_Drive/HappylandTondo/2.jpg",
+        alt: "Happyland Tondo 2",
+      },
+      {
+        src: "/images/Events/Donation_Drive/HappylandTondo/3.jpg",
+        alt: "Happyland Tondo 3",
+      },
+      {
+        src: "/images/Events/Donation_Drive/HappylandTondo/4.jpg",
+        alt: "Happyland Tondo 4",
+      },
+      {
+        src: "/images/Events/Donation_Drive/HappylandTondo/5.jpg",
+        alt: "Happyland Tondo 5",
+      },
     ],
     promotions: [],
     report: [],
@@ -202,11 +389,26 @@ export const events = [
     tags: ["#DonationDrive", "#TyphoonKristene", "#Talidhay"],
     coverImage: "/images/Events/Donation_Drive/TyphoonKristene/1.jpg",
     gallery: [
-      { src: "/images/Events/Donation_Drive/TyphoonKristene/1.jpg", alt: "Typhoon Kristene 1" },
-      { src: "/images/Events/Donation_Drive/TyphoonKristene/2.jpg", alt: "Typhoon Kristene 2" },
-      { src: "/images/Events/Donation_Drive/TyphoonKristene/3.jpg", alt: "Typhoon Kristene 3" },
-      { src: "/images/Events/Donation_Drive/TyphoonKristene/4.jpg", alt: "Typhoon Kristene 4" },
-      { src: "/images/Events/Donation_Drive/TyphoonKristene/5.jpg", alt: "Typhoon Kristene 5" },
+      {
+        src: "/images/Events/Donation_Drive/TyphoonKristene/1.jpg",
+        alt: "Typhoon Kristene 1",
+      },
+      {
+        src: "/images/Events/Donation_Drive/TyphoonKristene/2.jpg",
+        alt: "Typhoon Kristene 2",
+      },
+      {
+        src: "/images/Events/Donation_Drive/TyphoonKristene/3.jpg",
+        alt: "Typhoon Kristene 3",
+      },
+      {
+        src: "/images/Events/Donation_Drive/TyphoonKristene/4.jpg",
+        alt: "Typhoon Kristene 4",
+      },
+      {
+        src: "/images/Events/Donation_Drive/TyphoonKristene/5.jpg",
+        alt: "Typhoon Kristene 5",
+      },
     ],
     promotions: [],
     report: [],

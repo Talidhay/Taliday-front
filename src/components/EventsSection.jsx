@@ -60,7 +60,7 @@ const EventsSection = () => {
           >
             <span>Moments that Matter</span>
           </h2>
-          <p className="text-xl leading-relaxed max-w-4xl mx-auto">
+          <p className="text-s leading-relaxed max-w-4xl mx-auto">
             From heartfelt community programs to vibrant collaborations and
             creative fundraisers, every Talidhay event is a step toward our
             vision—spreading joy, building connections, and making a lasting

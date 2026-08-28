@@ -4,6 +4,7 @@ import AboutCoreValues from "./AboutCoreValues";
 import AboutLogoMeaning from "./AboutLogoMeaning";
 import AboutJournalJoy from "./AboutJournalJoy";
 import AboutServe from "./AboutServe";
+import AboutGallery from "./AboutGallery";
 
 const AboutPage = () => {
   return (
@@ -55,11 +56,12 @@ const AboutPage = () => {
           </div>
         </div>
       </section>
+      <AboutGallery />
       <AboutObjectives />
       <AboutCoreValues />
       <AboutServe />
       <AboutJournalJoy />
-      <AboutLogoMeaning />
+      {/* <AboutLogoMeaning /> */}
     </>
   );
 };

@@ -27,7 +27,7 @@ const Footer = () => {
     {
       name: "Threads",
       icon: <FontAwesomeIcon icon={faThreads} />,
-      url: "https://shorturl.at/eoDqw",
+      url: "https://www.threads.com/@talidhay2024",
     },
   ];
 
@@ -53,7 +53,6 @@ const Footer = () => {
             </h4>
             <ul className="space-y-2 text-white">
               <li>📧 talidhay2024@gmail.com</li>
-              <li>📞 +1 (555) 123-4567</li>
               <li>📍 Baranggay Amihan, Q.C.</li>
             </ul>
           </div>

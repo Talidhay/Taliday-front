@@ -16,7 +16,7 @@ const TeamPage = () => {
           >
             <span>The Team That Makes It Happen</span>
           </h2>
-          <p className="text-base leading-relaxed max-w-2xl mx-auto">
+          <p className="text-base leading-relaxed max-w-5xl mx-auto">
             Behind every project, outreach, and shared moment is a team of
             passionate youth and dedicated volunteers. United by purpose and
             driven by heart, they work hand-in-hand to turn ideas into action

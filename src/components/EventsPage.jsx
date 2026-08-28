@@ -22,7 +22,7 @@ const EventsPage = () => {
         >
           <span>Moments That Move Us</span>
         </h2>
-        <p className="text-base leading-relaxed max-w-2xl mx-auto">
+        <p className="text-base leading-relaxed max-w-5xl mx-auto">
           Every Talidhay event, program, and activity is crafted to uplift,
           connect, and inspire. From creative workshops to meaningful
           collaborations and community-led initiatives, each moment we share is
