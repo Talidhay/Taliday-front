@@ -41,7 +41,7 @@ const AboutSection = () => {
           >
             <span>Our Heart and Purpose</span>
           </h2>
-          <p className="text-xl leading-relaxed max-w-4xl mx-auto">
+          <p className="text-s leading-relaxed max-w-4xl mx-auto">
             At the core of Talidhay is a shared dream—to build a kinder, more
             connected world through simple acts of joy. Guided by our mission,
             vision, and values, we create safe, inclusive spaces where children

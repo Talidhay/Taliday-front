@@ -7,7 +7,7 @@ import {
   faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
 
-const EVENTS_PER_PAGE = 2;
+const EVENTS_PER_PAGE = 4;
 
 const EventsGrids = ({ query = "" }) => {
   const [page, setPage] = useState(0);
@@ -50,7 +50,7 @@ const EventsGrids = ({ query = "" }) => {
               <img
                 src={event.image ?? event.coverImage}
                 alt={event.title}
-                className="w-full h-48 object-cover rounded-xl mb-4"
+                className="w-full h-80 object-cover rounded-xl mb-4"
               />
               <h3 className="text-xl font-bold text-[#8F2901] mb-2 text-center">
                 {event.title}

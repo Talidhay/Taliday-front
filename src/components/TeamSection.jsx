@@ -52,7 +52,7 @@ const TeamSection = () => {
           >
             <span>The People Behind Talidhay</span>
           </h2>
-          <p className="text-xl leading-relaxed max-w-4xl mx-auto">
+          <p className="text-s leading-relaxed max-w-4xl mx-auto">
             Talidhay is made possible by a passionate team of volunteers,
             organizers, and community builders. United by shared values and a
             heart for service, our officers and members work together to turn

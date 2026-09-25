@@ -51,7 +51,7 @@ const TeamPageMembers = () => {
           >
             The Members
           </h3>
-          <p className="text-lg text-gray-700 leading-relaxed max-w-3xl mx-auto">
+          <p className="text-m text-gray-700 leading-relaxed max-w-5xl mx-auto">
             The heart of our movement. Talidhay’s members are the lifeblood of
             our initiatives—active, compassionate, and collaborative. From ideas
             to action, they bring energy and soul to everything we do.

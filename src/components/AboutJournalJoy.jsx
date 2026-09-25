@@ -11,7 +11,7 @@ const AboutJournalJoy = () => {
           >
             Journal of Joy
           </h3>
-          <p className="text-lg text-gray-700 leading-relaxed max-w-3xl mx-auto text-center">
+          <p className="text-m text-gray-700 leading-relaxed max-w-5xl mx-auto text-center">
             Take a deeper look into our journey. The Journal of Joy is a
             collection of Talidhay’s milestones, stories, and heartfelt
             moments—from our humble beginnings to the memories we continue to

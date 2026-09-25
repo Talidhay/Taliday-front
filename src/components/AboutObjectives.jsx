@@ -12,7 +12,7 @@ const AboutObjectives = () => {
           >
             Our Objectives
           </h3>
-          <p className="text-lg text-gray-700 leading-relaxed max-w-3xl mx-auto text-center">
+          <p className="text-m text-gray-700 leading-relaxed max-w-5xl mx-auto text-center">
             As an organization committed to spreading happiness and building
             lasting camaraderie, our objectives reflect our passion for creating
             a joyful and connected community through meaningful service and

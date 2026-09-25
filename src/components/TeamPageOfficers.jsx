@@ -51,7 +51,7 @@ const TeamPageOfficers = () => {
           >
             The Officers
           </h3>
-          <p className="text-lg text-gray-700 leading-relaxed max-w-3xl mx-auto">
+          <p className="text-m text-gray-700 leading-relaxed max-w-5xl mx-auto">
             Guiding with heart, leading with purpose. Talidhay’s officers are
             the core decision-makers and facilitators who ensure every effort
             aligns with our mission. They help keep the vision clear, the plans

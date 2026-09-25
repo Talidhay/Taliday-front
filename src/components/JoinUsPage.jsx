@@ -12,7 +12,7 @@ const JoinUsPage = () => {
           >
             <span>Lend a Hand, Leave a Mark</span>
           </h2>
-          <p className="text-base leading-relaxed max-w-2xl mx-auto">
+          <p className="text-base leading-relaxed max-w-5xl mx-auto">
             Your time, voice, and presence matter. By registering with Talidhay,
             you become part of a growing community committed to compassion,
             creativity, and collective action. Whether you choose to be a full
