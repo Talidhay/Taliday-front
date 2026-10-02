@@ -13,11 +13,9 @@ const AboutCoreValues = () => {
             Our Core Values
           </h3>
           <p className="text-m text-gray-700 leading-relaxed max-w-5xl mx-auto text-center">
-            Our core values reflect the heart of Talidhay—grounded in service,
-            shaped by joy, and strengthened by community. They serve as the
-            foundation for how we act, connect, and grow together. Each value is
-            a reminder that real impact starts with intention, and that even the
-            smallest moments can leave a lasting impression.
+            Our core values reflect the heart of Talidhay grounded in service,
+            shaped by joy, and strengthened by community. They guide how we act,
+            connect, and grow together.
           </p>
         </div>
 

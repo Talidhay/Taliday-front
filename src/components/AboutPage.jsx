@@ -57,7 +57,7 @@ const AboutPage = () => {
         </div>
       </section>
       <AboutGallery />
-      <AboutObjectives />
+      {/* <AboutObjectives /> */}
       <AboutCoreValues />
       <AboutServe />
       <AboutJournalJoy />

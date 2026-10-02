@@ -4,40 +4,40 @@ const TeamPageMembers = () => {
   const teamMembers = [
     {
       id: 1,
-      name: "Julia Marie Ladrera",
-      role: "President",
+      name: "Marri Krishna Vargas",
+      role: "VCC and MDC Member",
       description: "Visionary leader with 10+ years in community development",
     },
     {
       id: 2,
-      name: "Tania Virgino",
-      role: "Vice President (External)",
+      name: "Aldwin Joshua Ladion",
+      role: "LOC and VCC Member",
       description: "Expert in sustainable development and social impact",
     },
     {
       id: 3,
-      name: "Marylyne Vargas",
-      role: "Secretary",
+      name: "Juan Ladrera",
+      role: "LOC Member",
       description: "Innovation specialist with expertise in digital solutions",
     },
     {
       id: 4,
-      name: "Angel Macabale",
-      role: "Treasurer",
+      name: "Kaya Novicio",
+      role: "SPC Member",
       description: "Passionate about building strong community connections",
     },
     {
       id: 5,
-      name: "Cyril Lagdameo",
-      role: "Auditor",
+      name: "Fionna Perido",
+      role: "SPC Member",
       description: "Ensuring smooth operations and project execution",
     },
-    {
-      id: 6,
-      name: "Mark Ryan Benlot",
-      role: "P.R.O",
-      description: "Creative storyteller promoting community initiatives",
-    },
+    // {
+    //   id: 6,
+    //   name: "Mark Ryan Benlot",
+    //   role: "P.R.O",
+    //   description: "Creative storyteller promoting community initiatives",
+    // },
   ];
 
   return (
@@ -49,13 +49,13 @@ const TeamPageMembers = () => {
             className="text-2xl sm:text-3xl font-bold mb-4"
             style={{ color: "#8F2901" }}
           >
-            The Members
+            The Core Members
           </h3>
-          <p className="text-m text-gray-700 leading-relaxed max-w-5xl mx-auto">
+          {/* <p className="text-m text-gray-700 leading-relaxed max-w-5xl mx-auto">
             The heart of our movement. Talidhay’s members are the lifeblood of
             our initiatives—active, compassionate, and collaborative. From ideas
             to action, they bring energy and soul to everything we do.
-          </p>
+          </p> */}
         </div>
 
         {/* Officers Grid */}
@@ -65,7 +65,7 @@ const TeamPageMembers = () => {
               key={member.id}
               className="bg-[#FAD374] p-8 rounded-2xl shadow-lg hover:shadow-xl transform hover:-translate-y-2 transition duration-300 border border-gray-100 text-center flex flex-col items-center"
             >
-              <div className="w-full mb-6">
+              {/* <div className="w-full mb-6">
                 <img
                   src={`/images/team/${member.name
                     .charAt(0)
@@ -74,12 +74,12 @@ const TeamPageMembers = () => {
                   className="w-full aspect-square object-cover rounded-xl border-2 border-yellow-700 bg-white"
                   style={{ maxHeight: "220px" }}
                 />
-              </div>
+              </div> */}
               <div>
-                <h4 className="text-xl font-semibold text-gray-900 mb-2">
+                <h4 className="text-3xl font-bold text-gray-900 mb-2" style={{ color: "#8F2901" }}>
                   {member.name}
                 </h4>
-                <p className="text-indigo-600 font-medium">
+                <p className="text-amber-800 font-medium">
                   {member.role}
                 </p>
               </div>

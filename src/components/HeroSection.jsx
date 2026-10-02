@@ -15,38 +15,46 @@ const HeroSection = () => {
       {/* Background overlay */}
       <div
         className="absolute inset-0"
-        style={{ backgroundColor: "rgba(51,10,0,0.6)" }}
-      ></div>
-      <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        style={{ backgroundColor: "rgba(36, 8, 1, 0.61)" }}
+      />
+
+      {/* Hero Content */}
+      <div className="max-w-4xl mx-auto px-6 relative z-10">
         <div className="flex flex-col items-center text-center animate-fade-in">
-          <h1 className="protest-riot-regular text-6xl sm:text-8xl lg:text-9xl font-bold text-white leading-tight mb-6">
+
+          <h1 className="protest-riot-regular text-6xl sm:text-7xl lg:text-9xl font-bold text-white leading-none mb-4">
             TALIDHAY
           </h1>
-          <p className="font-medium text-xl text-gray-200 leading-relaxed mb-8 max-w-2xl">
-            Whether it's through volunteering, sharing your skills, or
-            contributing a small donation—every bit of support helps us bring
-            more light and laughter to the lives we touch.
+
+          <p className="text-xl sm:text-2xl lg:text-3xl font-medium text-white/95 max-w-2xl leading-snug mb-8">
+            Spreading Joy, One Moment at a Time.
           </p>
 
-          {/* Card with text left and button right */}
-          <div className="w-full rounded-[3rem] max-w-xl bg-[#46522E]/80 shadow-lg border-2 border-gray-300 flex flex-col sm:flex-row items-center justify-between px-4 py-3 gap-4 mb-4">
-            <span className="ps-4 text-gray-100 text-lg font-medium text-center sm:text-left">
-              Your kindness plants seeds of joy.
-            </span>
-            <Link
-              to="/donate"
-              aria-label="Donate to Talidhay"
-              className="bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 px-8 py-4 rounded-4xl font-bold text-lg hover:from-yellow-500 hover:to-yellow-400 transform hover:-translate-y-1 transition duration-300 shadow-lg hover:shadow-xl w-full sm:w-auto text-[#8F2901]"
-            >
-              <span className="block w-full text-center">DONATE</span>
-            </Link>
-          </div>
+          <Link
+            to="/donate"
+            aria-label="Donate to Talidhay"
+            className="
+              bg-[#FAD374]
+              text-[#8F2901]
+              px-8 py-3
+              rounded-full
+              font-bold text-lg
+              shadow-lg
+              hover:bg-[#f8c94d]
+              hover:-translate-y-1
+              transition-all duration-300
+            "
+          >
+            DONATE
+          </Link>
+
         </div>
       </div>
+
       {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce z-10">
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 animate-bounce">
         <svg
-          className="w-6 h-6 text-white/60"
+          className="w-5 h-5 text-white/60"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"

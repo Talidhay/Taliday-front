@@ -1,23 +1,25 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBullseye, faEye, faHeart } from "@fortawesome/free-solid-svg-icons";
 
 const AboutSection = () => {
   const cards = [
     {
       title: "Mission",
-      icon: "🎯",
+      icon: faBullseye,
       description:
         "To create uplifting experiences that bring joy to individuals and communities through meaningful moments and connections.",
     },
     {
       title: "Vision",
-      icon: "👁️",
+      icon: faEye,
       description:
         "To become a  community where every individual feels the warmth of joy and connection, fostering a positive impact on people’s lives.",
     },
     {
       title: "Core Values",
-      icon: "💎",
+      icon: faHeart,
       description: (
         <>
           Joy and Positivity
@@ -42,10 +44,8 @@ const AboutSection = () => {
             <span>Our Heart and Purpose</span>
           </h2>
           <p className="text-s leading-relaxed max-w-4xl mx-auto">
-            At the core of Talidhay is a shared dream—to build a kinder, more
-            connected world through simple acts of joy. Guided by our mission,
-            vision, and values, we create safe, inclusive spaces where children
-            and communities can grow, play, and thrive.
+            Talidhay strives to build a kinder, more connected world through
+            joy, compassion, and community.
           </p>
         </div>
 
@@ -57,13 +57,16 @@ const AboutSection = () => {
                 card.title === "Mission" ? "bg-[#FFFAEE]" : "bg-[#FFFAEE]"
               }`}
             >
-              <div className="text-5xl mb-4 text-center">{card.icon}</div>
-              <h3 className="text-2xl font-semibold text-gray-900 mb-4 text-center">
+              <div className="text-5xl mb-4 text-center" style={{ color: "#8F2901" }}>
+                <FontAwesomeIcon icon={card.icon} />
+              </div>
+              <h3
+                className="text-2xl font-semibold mb-4 text-center"
+                style={{ color: "#8F2901" }}
+              >
                 {card.title}
               </h3>
-              <p className="leading-relaxed text-center">
-                {card.description}
-              </p>
+              <p className="leading-relaxed text-center">{card.description}</p>
             </div>
           ))}
         </div>

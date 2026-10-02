@@ -13,11 +13,10 @@ const JoinUsPage = () => {
             <span>Lend a Hand, Leave a Mark</span>
           </h2>
           <p className="text-base leading-relaxed max-w-5xl mx-auto">
-            Your time, voice, and presence matter. By registering with Talidhay,
-            you become part of a growing community committed to compassion,
-            creativity, and collective action. Whether you choose to be a full
-            member or join us as a volunteer, your contribution helps us weave
-            stories of impact—one thread, one act, one story at a time.
+            Your time, voice, and presence matter. By joining Talidhay as a
+            member or volunteer, you become part of a growing community creating
+            meaningful impact through compassion, creativity, and collective
+            action.
           </p>
         </div>
 
@@ -30,12 +29,12 @@ const JoinUsPage = () => {
             className="bg-[#FAD374] rounded-2xl shadow-lg p-6 pb-4 flex flex-col items-center hover:-translate-y-2 transition duration-300 hover:shadow-xl"
           >
             <img
-              src="/images/image 27.jpg"
+              src="/images/photo_47_2025-10-06_16-37-59.jpg"
               alt="Event"
               className="w-full h-48 object-cover rounded-xl mb-4"
             />
             <h3 className="text-xl font-bold text-[#8F2901] mb-2 text-center">
-              Membership
+              Membership Application Form
             </h3>
           </a>
 
@@ -47,12 +46,12 @@ const JoinUsPage = () => {
             className="bg-[#FAD374] rounded-2xl shadow-lg p-6 pb-4 flex flex-col items-center hover:-translate-y-2 transition duration-300 hover:shadow-xl"
           >
             <img
-              src="/images/image 27.jpg"
+              src="/images/photo_2024-10-27_21-45-38.jpg"
               alt="Event"
               className="w-full h-48 object-cover rounded-xl mb-4"
             />
             <h3 className="text-xl font-bold text-[#8F2901] mb-2 text-center">
-              Volunteer
+              Volunteer Form
             </h3>
           </a>
         </div>

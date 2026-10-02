@@ -1,44 +1,43 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-
 const TeamSection = () => {
   const teamMembers = [
     {
       id: 1,
       name: "Julia Marie Ladrera",
       role: "President",
-      description: "Visionary leader with 10+ years in community development",
+      description: "Strategic Planning Committee (SPC) - Head",
     },
     {
       id: 2,
       name: "Tania Virgino",
       role: "Vice President (External)",
-      description: "Expert in sustainable development and social impact",
+      description: "Media and Documentation Committee (MDC) - Head",
     },
     {
       id: 3,
       name: "Marylyne Vargas",
       role: "Secretary",
-      description: "Innovation specialist with expertise in digital solutions",
+      description: "Visual Content Committee (VCC) - Head",
     },
     {
       id: 4,
       name: "Angel Macabale",
       role: "Treasurer",
-      description: "Passionate about building strong community connections",
+      description: "Logistics Committee (LOC) - Head",
     },
     {
       id: 5,
       name: "Cyril Lagdameo",
       role: "Auditor",
-      description: "Ensuring smooth operations and project execution",
+      description: "SPC and MDC Member",
     },
     {
       id: 6,
       name: "Mark Ryan Benlot",
       role: "P.R.O",
-      description: "Creative storyteller promoting community initiatives",
+      description: "LOC Member",
     },
   ];
 
@@ -53,10 +52,9 @@ const TeamSection = () => {
             <span>The People Behind Talidhay</span>
           </h2>
           <p className="text-s leading-relaxed max-w-4xl mx-auto">
-            Talidhay is made possible by a passionate team of volunteers,
-            organizers, and community builders. United by shared values and a
-            heart for service, our officers and members work together to turn
-            small acts into meaningful change—one initiative at a time.
+            A movement made possible by passionate volunteers, organizers, and
+            community builders who work together to turn small acts into
+            meaningful change.
           </p>
         </div>
 
@@ -66,7 +64,7 @@ const TeamSection = () => {
               key={member.id}
               className="bg-[#FAD374] p-8 rounded-2xl shadow-lg hover:shadow-xl transform hover:-translate-y-2 transition duration-300 border border-gray-100 text-center flex flex-col items-center"
             >
-              <div className="w-full mb-6">
+              {/* <div className="w-full mb-6">
                 <img
                   src={`/images/team/${member.name
                     .charAt(0)
@@ -75,15 +73,15 @@ const TeamSection = () => {
                   className="w-full aspect-square object-cover rounded-xl border-2 border-yellow-700 bg-white"
                   style={{ maxHeight: "220px" }}
                 />
-              </div>
+              </div> */}
               <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                <h4 className="text-3xl font-bold text-gray-900 mb-2" style={{ color: "#8F2901" }}>
                   {member.name}
-                </h3>
-                <p className="text-indigo-600 font-medium mb-4">
+                </h4>
+                <p className="text-amber-800 font-medium mb-4">
                   {member.role}
                 </p>
-                <p className=" leading-relaxed text-sm">{member.description}</p>
+                <p className="leading-relaxed text-sm">{member.description}</p>
               </div>
             </div>
           ))}

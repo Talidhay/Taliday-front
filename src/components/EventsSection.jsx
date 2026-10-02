@@ -5,31 +5,33 @@ import {
   faPalette,
   faChevronLeft,
   faChevronRight,
+  faWallet,
+  faGifts,
 } from "@fortawesome/free-solid-svg-icons";
 
 const events = [
   {
     title: "Art From The Heart (AFTH)",
     description:
-      "Our first-ever event, Art from the Heart, marked the beginning of Talidhay’s journey. Through art, laughter, and creative expression, we brought children together to celebrate joy, imagination, and community—one heartfelt stroke at a time.",
-    image: "/images/image 27.jpg",
+      "Talidhay’s first-ever event brought children together through art, creativity, and laughter, marking the beginning of our journey as a community.",
+    image: "/images/photo_39_2025-02-16_15-21-47.jpg",
     icon: faPalette,
     link: "/eventsview",
   },
   {
-    title: "Joyful Connections",
+    title: "PitakaTalks",
     description:
-      "A collaborative event designed to foster new friendships and strengthen community bonds through fun activities and shared experiences.",
-    image: "/images/image 28.jpg",
-    icon: faPalette,
+      "A financial literacy session that encouraged young people to make wiser money moves through conversations on financial planning, savings, and protection.",
+    image: "/images/541541043_2905421582975258_3167540554380460539_n.jpg",
+    icon: faWallet,
     link: "/eventsview",
   },
   {
-    title: "Creative Fundraiser",
+    title: "A Timeless Carol",
     description:
-      "An inspiring fundraiser where creativity meets compassion, supporting local causes through art auctions and performances.",
-    image: "/images/image 29.jpg",
-    icon: faPalette,
+      "A Christmas outreach program that brought warmth, music, and meaningful connections to elders while celebrating their stories, wisdom, and presence.",
+    image: "/images/IMG_1178.jpg",
+    icon: faGifts,
     link: "/eventsview",
   },
 ];
@@ -61,11 +63,8 @@ const EventsSection = () => {
             <span>Moments that Matter</span>
           </h2>
           <p className="text-s leading-relaxed max-w-4xl mx-auto">
-            From heartfelt community programs to vibrant collaborations and
-            creative fundraisers, every Talidhay event is a step toward our
-            vision—spreading joy, building connections, and making a lasting
-            impact. Whether big or small, each activity reflects our commitment
-            to compassion, creativity, and community care.
+            Every Talidhay event brings people together through joy, creativity,
+            and community.
           </p>
         </div>
 
@@ -105,7 +104,7 @@ const EventsSection = () => {
                 <img
                   src={event.image}
                   alt={event.title}
-                  className="w-full rounded-2xl shadow-md object-cover"
+                  className="w-full h-80 rounded-2xl shadow-md object-cover"
                 />
               </div>
             </button>
