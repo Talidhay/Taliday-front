@@ -18,14 +18,14 @@ const AboutServe = () => {
           {/* Left column: Image or illustration */}
           <div className="flex justify-center">
             <img
-              src="/images/image 27.jpg"
+              src="/images/IMG_20250614_112825.jpg"
               alt="About Talidhay"
-              className="w-full max-w-md rounded-3xl shadow-lg object-cover"
+              className="w-full h-75 max-w-md rounded-3xl shadow-lg object-cover"
             />
           </div>
           {/* Right column: Text */}
           <div>
-            <p className="text-xl text-gray-600 leading-relaxed mb-6 text-justify">
+            <p className="text-xl text-gray-600 leading-relaxed text-justify">
               Our organization primarily focuses on uplifting individuals and
               communities in <b>Barangay Amihan, Quezon City,</b> with plans to
               extend our reach to neighboring areas and eventually the entire

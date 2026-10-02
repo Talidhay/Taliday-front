@@ -25,7 +25,7 @@ const TeamPage = () => {
         </div>
 
         {/* Search Bar */}
-        <div
+        {/* <div
           className="mb-20 w-full max-w-md rounded-[3rem] shadow-md border border-[#8F2901] flex flex-row items-center justify-between px-2 sm:px-3 py-2 gap-2 mx-auto"
           style={{ boxSizing: "border-box" }}
         >
@@ -42,7 +42,7 @@ const TeamPage = () => {
           >
             <FontAwesomeIcon icon={faSearch} />
           </button>
-        </div>
+        </div> */}
       </div>
       <TeamPageOfficers />
       <TeamPageMembers />

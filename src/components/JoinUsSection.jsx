@@ -18,10 +18,8 @@ const JoinUsSection = () => {
               Be Part of the Movement
             </h2>
             <p className="text-xl leading-relaxed mb-8">
-              Whether you're ready to lend a hand, share your skills, or simply
-              want to grow with a purpose-driven community—there’s a place for
-              you here at Talidhay. Sign up as a member or volunteer and help us
-              continue spreading joy, one moment at a time.
+              There’s a place for everyone at Talidhay. Join us, share your
+              skills, and help spread joy, one moment at a time.
             </p>
             <div>
               <Link

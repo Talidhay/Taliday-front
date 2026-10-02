@@ -63,12 +63,6 @@ const AboutGallery = () => {
           >
             Our History and Gallery
           </h3>
-
-          <p className="text-base text-gray-700 leading-relaxed max-w-5xl mx-auto">
-            As an organization committed to spreading happiness and building
-            lasting camaraderie, our gallery showcases the joyful moments and
-            shared experiences that define our community.
-          </p>
         </div>
 
         {/* Gallery */}
