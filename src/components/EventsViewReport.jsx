@@ -51,7 +51,7 @@ const EventsViewReport = ({ event }) => {
                   stroke="currentColor"
                   strokeWidth="2.5"
                   className="
-                    w-14 h-
+                    w-8 h-8
                     text-[#9B2D05]
                     group-hover:scale-110
                     transition-transform duration-300

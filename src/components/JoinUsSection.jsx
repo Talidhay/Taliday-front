@@ -33,7 +33,7 @@ const JoinUsSection = () => {
 
           <div className="flex justify-center items-center">
             <img
-              src="/images/image 27.jpg"
+              src="/images/IMG_1169.jpg"
               alt="Talidhay Community"
               className="w-full h-96 object-cover rounded-3xl border border-white/20 shadow-lg"
             />

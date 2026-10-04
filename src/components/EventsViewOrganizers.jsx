@@ -18,70 +18,41 @@ const EventsViewOrganizers = ({ event }) => {
   return (
     <section id="eventsvieworganizers" className="bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20 pt-3">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {organizers.map((org, idx) => (
             <div
               key={idx}
               className="
-                flex items-center gap-3
-                rounded-xl
-                transition-all duration-300
+                group
+                bg-[#FFFAEE]
+                border-2 border-gray-200
+                rounded-2xl
+                px-6 py-5
+                shadow-sm
+                hover:border-[#FAD374]
+                hover:shadow-lg
                 hover:-translate-y-1
-                hover:shadow-[0_8px_22px_rgba(0,0,0,0.18)]
+                transition-all duration-300
               "
             >
-              {/* Profile Icon */}
-              <div
+              {/* Name */}
+              <h3
                 className="
-                  w-20 h-20 sm:w-24 sm:h-24
-                  shrink-0
-                  bg-[#FAD374]
-                  rounded-xl
-                  flex items-center justify-center
+                  text-lg sm:text-xl
+                  font-bold
+                  text-[#8F2901]
+                  leading-tight
+                  transition-transform duration-300
+                  group-hover:translate-x-1
                 "
               >
-                <div className="relative w-14 h-14">
-                  {/* Head */}
-                  <div
-                    className="
-                      absolute top-0 left-1/2
-                      -translate-x-1/2
-                      w-6 h-6
-                      bg-[#A52B05]
-                      rounded-full
-                    "
-                  />
+                {org.title || "NAME"}
+              </h3>
 
-                  {/* Body */}
-                  <div
-                    className="
-                      absolute bottom-0 left-1/2
-                      -translate-x-1/2
-                      w-12 h-8
-                      bg-[#A52B05]
-                      rounded-t-full
-                    "
-                  />
-                </div>
-              </div>
-
-              {/* Organizer Info */}
-              <div
-                className="
-                  flex-1 min-w-0
-                  bg-[#FAD374]
-                  rounded-xl
-                  px-4 py-4
-                "
-              >
-                <h3 className="text-lg sm:text-xl font-bold text-[#A52B05] uppercase leading-tight truncate">
-                  {org.title || "NAME"}
-                </h3>
-
-                <p className="text-xs sm:text-sm font-semibold italic text-[#A52B05] uppercase mt-1 truncate">
-                  {org.position || org.description || "POSITION"}
-                </p>
-              </div>
+              {/* Position */}
+              <p className="text-sm text-gray-500 mt-1">
+                {org.position || org.description || "POSITION"}
+              </p>
             </div>
           ))}
         </div>
