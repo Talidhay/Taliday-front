@@ -12,19 +12,14 @@ const Donate = () => {
         </h2>
 
         <p className="text-base leading-relaxed max-w-5xl mx-auto">
-          Your donation helps us reach more communities, support more children,
-          and bring our projects to life. With every peso, you help us weave
-          kindness, opportunity, and lasting change—one act of generosity at a
-          time.
+    Your donation helps us bring Talidhay’s programs to more communities and
+    create meaningful moments that make a difference.
         </p>
 
         <p className="pt-5 text-base leading-relaxed max-w-5xl mx-auto">
-          You may send your monetary donations by scanning the GCash QR code
-          below. The account belongs to our Treasurer, so please make sure to
-          include a note indicating that the payment is a donation to Talidhay.
-          For in-kind donations or other forms of support, feel free to
-          communicate with us through our official email or any of our social
-          media channels listed below.
+    To donate, simply scan the GCash QR code. Please include a note that your
+    payment is a donation to Talidhay. For in-kind donations or other support,
+    feel free to reach out through our official channels.
         </p>
       </div>
 

@@ -7,65 +7,125 @@ export const events = [
     title: "Art From The Heart",
     date: "February 15, 2025",
     tags: ["#ArtFromTheHeart", "#Talidhay", "#ValentinesDay", "#KidsArt"],
-    coverImage: "/images/Events/Art_From_The_Heart_021525/33.jpg",
+    coverImage: "/images/Events/Art_From_The_Heart_021525/3.jpg",
     gallery: [
       {
-        src: "/images/Events/Art_From_The_Heart_021525/26.JPG",
+        src: "/images/Events/Art_From_The_Heart_021525/1.jpg",
         alt: "Art From The Heart 1",
       },
       {
-        src: "/images/Events/Art_From_The_Heart_021525/27.jpg",
+        src: "/images/Events/Art_From_The_Heart_021525/2.jpg",
         alt: "Art From The Heart 2",
       },
       {
-        src: "/images/Events/Art_From_The_Heart_021525/28.jpg",
+        src: "/images/Events/Art_From_The_Heart_021525/3.jpg",
         alt: "Art From The Heart 3",
       },
       {
-        src: "/images/Events/Art_From_The_Heart_021525/29.jpg",
+        src: "/images/Events/Art_From_The_Heart_021525/4.jpg",
         alt: "Art From The Heart 4",
       },
       {
-        src: "/images/Events/Art_From_The_Heart_021525/30.jpg",
+        src: "/images/Events/Art_From_The_Heart_021525/5.jpg",
         alt: "Art From The Heart 5",
       },
       {
-        src: "/images/Events/Art_From_The_Heart_021525/31.jpg",
+        src: "/images/Events/Art_From_The_Heart_021525/6.jpg",
         alt: "Art From The Heart 6",
       },
       {
-        src: "/images/Events/Art_From_The_Heart_021525/32.jpg",
+        src: "/images/Events/Art_From_The_Heart_021525/7.jpg",
         alt: "Art From The Heart 7",
       },
       {
-        src: "/images/Events/Art_From_The_Heart_021525/33.jpg",
+        src: "/images/Events/Art_From_The_Heart_021525/8.jpg",
         alt: "Art From The Heart 8",
       },
+            {
+        src: "/images/Events/Art_From_The_Heart_021525/9.jpg",
+        alt: "Art From The Heart 9",
+      },
+      {
+        src: "/images/Events/Art_From_The_Heart_021525/10.jpg",
+        alt: "Art From The Heart 10",
+      },
+      {
+        src: "/images/Events/Art_From_The_Heart_021525/11.jpg",
+        alt: "Art From The Heart 11",
+      },
+      {
+        src: "/images/Events/Art_From_The_Heart_021525/12.jpg",
+        alt: "Art From The Heart 12",
+      },
+      {
+        src: "/images/Events/Art_From_The_Heart_021525/13.jpg",
+        alt: "Art From The Heart 13",
+      },
+      {
+        src: "/images/Events/Art_From_The_Heart_021525/14.jpg",
+        alt: "Art From The Heart 14",
+      },
+      {
+        src: "/images/Events/Art_From_The_Heart_021525/15.jpg",
+        alt: "Art From The Heart 15",
+      },
+            {
+        src: "/images/Events/Art_From_The_Heart_021525/16.jpg",
+        alt: "Art From The Heart 16",
+      },
+      {
+        src: "/images/Events/Art_From_The_Heart_021525/17.jpg",
+        alt: "Art From The Heart 17",
+      },
+      {
+        src: "/images/Events/Art_From_The_Heart_021525/19.jpg",
+        alt: "Art From The Heart 19",
+      },
+      {
+        src: "/images/Events/Art_From_The_Heart_021525/20.jpg",
+        alt: "Art From The Heart 20",
+      },
+     {
+        src: "/images/Events/Art_From_The_Heart_021525/21.jpg",
+        alt: "Art From The Heart 21",
+      },
+      {
+        src: "/images/Events/Art_From_The_Heart_021525/22.jpg",
+        alt: "Art From The Heart 22",
+      },
+      {
+        src: "/images/Events/Art_From_The_Heart_021525/23.jpg",
+        alt: "Art From The Heart 23",
+      },
+      {
+        src: "/images/Events/Art_From_The_Heart_021525/24.jpg",
+        alt: "Art From The Heart 24",
+      },
     ],
-    promotions: [
-      {
-        href: "https://www.facebook.com/share/p/1EyCRZEabe/",
-        img: "/images/Events/Art_From_The_Heart_021525/29.jpg",
-        text: "View on Facebook",
-      },
-      {
-        href: "https://www.facebook.com/share/p/1EyCRZEabe/",
-        img: "/images/Events/Art_From_The_Heart_021525/30.jpg",
-        text: "View on Facebook",
-      },
-    ],
-    report: [
-      {
-        href: "https://www.facebook.com/share/p/1EyCRZEabe/",
-        img: "/images/Events/Art_From_The_Heart_021525/31.jpg",
-        text: "View Report",
-      },
-      {
-        href: "https://www.facebook.com/share/p/1EyCRZEabe/",
-        img: "/images/Events/Art_From_The_Heart_021525/32.jpg",
-        text: "View Report",
-      },
-    ],
+    // promotions: [
+    //   {
+    //     href: "https://www.facebook.com/share/p/1EyCRZEabe/",
+    //     img: "/images/Events/Art_From_The_Heart_021525/29.jpg",
+    //     text: "View on Facebook",
+    //   },
+    //   {
+    //     href: "https://www.facebook.com/share/p/1EyCRZEabe/",
+    //     img: "/images/Events/Art_From_The_Heart_021525/30.jpg",
+    //     text: "View on Facebook",
+    //   },
+    // ],
+    // report: [
+    //   {
+    //     href: "https://www.facebook.com/share/p/1EyCRZEabe/",
+    //     img: "/images/Events/Art_From_The_Heart_021525/31.jpg",
+    //     text: "View Report",
+    //   },
+    //   {
+    //     href: "https://www.facebook.com/share/p/1EyCRZEabe/",
+    //     img: "/images/Events/Art_From_The_Heart_021525/32.jpg",
+    //     text: "View Report",
+    //   },
+    // ],
     organizers: [
       {
         img: "/images/Events/Art_From_The_Heart_021525/26.JPG",
@@ -74,28 +134,53 @@ export const events = [
       },
       {
         img: "/images/Events/Art_From_The_Heart_021525/26.JPG",
-        title: "Name",
-        description: "Role",
+        title: "Tania Virgino",
+        description: "Vice President",
       },
       {
         img: "/images/Events/Art_From_The_Heart_021525/26.JPG",
-        title: "Name",
-        description: "Role",
+        title: "Marylyne Vargas",
+        description: "Secretary",
       },
       {
         img: "/images/Events/Art_From_The_Heart_021525/26.JPG",
-        title: "Name",
-        description: "Role",
+        title: "Angel Macabale",
+        description: "Treasurer",
       },
       {
         img: "/images/Events/Art_From_The_Heart_021525/26.JPG",
-        title: "Name",
-        description: "Role",
+        title: "Cyril Lagdameo",
+        description: "MDC",
+      },
+            {
+        img: "/images/Events/Art_From_The_Heart_021525/26.JPG",
+        title: "Marri Krishna Vargas",
+        description: "VCC",
       },
       {
         img: "/images/Events/Art_From_The_Heart_021525/26.JPG",
-        title: "Name",
-        description: "Role",
+        title: "Mark Benlot",
+        description: "LOC",
+      },
+      {
+        img: "/images/Events/Art_From_The_Heart_021525/26.JPG",
+        title: "Joshua Ladion",
+        description: "LOC",
+      },
+            {
+        img: "/images/Events/Art_From_The_Heart_021525/26.JPG",
+        title: "Abigail Macabale",
+        description: "VCC - Previous Member",
+      },
+      {
+        img: "/images/Events/Art_From_The_Heart_021525/26.JPG",
+        title: "Aya Africano",
+        description: "MDC - Previous Member",
+      },
+      {
+        img: "/images/Events/Art_From_The_Heart_021525/26.JPG",
+        title: "Markus Bernales",
+        description: "Volunteer",
       },
     ],
     description: `On February 15, 2025, the Talidhay team successfully launched their community event, Art From the Heart, at Barangay Amihan. The event was designed to create a space for young children to express themselves through art, and it became a lively gathering filled with creativity and joy.\n\nPresent during the event were core organizers: Julia Marie Ladrera (President), Tania Virgino (Vice President), Marylyne Vargas (Secretary), Angel Macabale (Treasurer), Abigail Macabale (VCCC), Cyril Lagdameo (MDC), Mark Benlot (FWC), Joshua Ladion (FWC), Aya Africano (MDC), and Markus Bernales (volunteer). Despite the initial plan to begin at 2:00 PM, the event officially started at 2:30 PM and ran until 5:00 PM.\n\nThe activity welcomed an initial set of 50 kids aged 9 and below. By the end of the program, 45 children participated fully, engaging with the art materials and enjoying the atmosphere curated by the team.\n\nThe team's collective efforts were visible in every corner: from colorful decorations to thoughtful logistics like seating arrangements, program hosting, and facilitation of materials. Roles were distributed effectively, with documentation handled by Cyril and Aya, games and energizers coordinated by Joshua, Julia, and Markus, registration managed by Mark and Abi, and ushering done by Jeng and Len. Tania also delivered a warm announcement to the community, setting the tone for a fun and meaningful afternoon.\n\nAs the event concluded, the Talidhay team was filled with a sense of accomplishment. "Art From the Heart" ended not just as an event but as a heartfelt celebration of creativity, connection, and service.`,
@@ -243,6 +328,39 @@ export const events = [
       {
         src: "/images/Events/BrewKadaHub_1125/5.jpg",
         alt: "BrewKada Hub Nov 5",
+      },
+    ],
+    promotions: [],
+    report: [],
+    organizers: [],
+    description: PLACEHOLDER_DESC,
+  },
+    {
+    slug: "brewkada-hub-april-may-2026",
+    title: "BrewKada Hub",
+    date: "April - May 2026",
+    tags: ["#BrewKadaHub", "#Talidhay", "#Coffee"],
+    coverImage: "/images/Events/BrewKadaHub_0426/1.jpeg",
+    gallery: [
+      {
+        src: "/images/Events/BrewKadaHub_0426/1.jpeg",
+        alt: "BrewKada Hub Apr/May 1",
+      },
+      {
+        src: "/images/Events/BrewKadaHub_0426/2.jpeg",
+        alt: "BrewKada Hub Apr/May 2",
+      },
+      {
+        src: "/images/Events/BrewKadaHub_0426/3.jpeg",
+        alt: "BrewKada Hub Apr/May 3",
+      },
+      {
+        src: "/images/Events/BrewKadaHub_0426/4.jpg",
+        alt: "BrewKada Hub Apr/May 4",
+      },
+      {
+        src: "/images/Events/BrewKadaHub_0426/5.jpg",
+        alt: "BrewKada Hub Apr/May 5",
       },
     ],
     promotions: [],
@@ -427,6 +545,24 @@ export const events = [
       { src: "/images/Events/PitakaTalks_0925/3.jpg", alt: "Pitaka Talks 3" },
       { src: "/images/Events/PitakaTalks_0925/4.jpg", alt: "Pitaka Talks 4" },
       { src: "/images/Events/PitakaTalks_0925/5.jpg", alt: "Pitaka Talks 5" },
+    ],
+    promotions: [],
+    report: [],
+    organizers: [],
+    description: PLACEHOLDER_DESC,
+  },
+    {
+    slug: "petals-with-purpose",
+    title: "Petals With Purpose",
+    date: "February 2026",
+    tags: ["#PetalsWithPurpose", "#Talidhay", "#FinancialLiteracy"],
+    coverImage: "/images/Events/PetalsWithPurpose/1.jpg",
+    gallery: [
+      { src: "/images/Events/PetalsWithPurpose/1.jpg", alt: "Petals With Purpose 1" },
+      { src: "/images/Events/PetalsWithPurpose/2.jpg", alt: "Petals With Purpose 2" },
+      { src: "/images/Events/PetalsWithPurpose/3.jpg", alt: "Petals With Purpose 3" },
+      { src: "/images/Events/PetalsWithPurpose/4.jpg", alt: "Petals With Purpose 4" },
+      { src: "/images/Events/PetalsWithPurpose/5.jpg", alt: "Petals With Purpose 5" },
     ],
     promotions: [],
     report: [],

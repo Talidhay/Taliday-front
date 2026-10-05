@@ -18,7 +18,7 @@ const EventsView = () => {
   const navigate = useNavigate();
   const [activeTab, setActiveTab] = React.useState("Description");
 
-  const tabs = ["Description", "Promotions", "Gallery", "Report", "Organizers"];
+  const tabs = ["Description", "Gallery", "Organizers"];
 
   const currentIndex = events.findIndex((e) => e.slug === slug);
   const event = events[currentIndex] ?? events[0];

@@ -8,9 +8,10 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-0 w-full z-50 bg-gradient-to-r from-[#4B1E06] via-[#8F2901] to-[#4B1E06] backdrop-blur-lg shadow-lg">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-24">
-          {/* Left side nav items */}
+
+          {/* Left Navigation */}
           <div className="hidden md:flex space-x-10">
             <Link
               to="/aboutpage"
@@ -18,6 +19,7 @@ const Navbar = () => {
             >
               ABOUT
             </Link>
+
             <Link
               to="/eventspage"
               className="text-white hover:text-[#FFD966] px-4 py-3 rounded-md text-base font-medium transition duration-300 hover:bg-[#8F2901]/30"
@@ -25,9 +27,10 @@ const Navbar = () => {
               EVENTS
             </Link>
           </div>
-          {/* Center logo */}
-          <div className="flex-shrink-0 flex justify-center w-1/3">
-            <Link to="/" className="flex items-center justify-center w-full">
+
+          {/* Logo */}
+          <div className="flex-shrink-0 flex justify-start md:justify-center md:w-1/3">
+            <Link to="/" className="flex items-center">
               <img
                 src="/images/1.png"
                 alt="Talidhay Logo"
@@ -35,24 +38,25 @@ const Navbar = () => {
               />
             </Link>
           </div>
-          {/* Right side nav items */}
+
+          {/* Right Navigation */}
           <div className="hidden md:flex space-x-10">
             <Link
               to="/teampage"
-              className="text-white hover:text-[#FFD966] block px-3 py-2 rounded-md text-base font-medium hover:bg-[#8F2901]/30"
-              onClick={() => setIsMenuOpen(false)}
+              className="text-white hover:text-[#FFD966] block px-3 py-2 rounded-md text-base font-medium transition duration-300 hover:bg-[#8F2901]/30"
             >
               OUR TEAM
             </Link>
+
             <Link
               to="/joinuspage"
-              className="text-white hover:text-[#FFD966] block px-3 py-2 rounded-md text-base font-medium hover:bg-[#8F2901]/30"
-              onClick={() => setIsMenuOpen(false)}
+              className="text-white hover:text-[#FFD966] block px-3 py-2 rounded-md text-base font-medium transition duration-300 hover:bg-[#8F2901]/30"
             >
               REGISTER
             </Link>
           </div>
-          {/* Mobile menu button */}
+
+          {/* Mobile Menu Button */}
           <div className="md:hidden">
             <button
               onClick={toggleMenu}
@@ -85,10 +89,11 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Mobile menu */}
+      {/* Mobile Menu */}
       {isMenuOpen && (
         <div className="md:hidden bg-gradient-to-r from-[#4B1E06] via-[#8F2901] to-[#4B1E06] backdrop-blur-lg border-t border-white/20">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+
             <Link
               to="/aboutpage"
               className="text-white hover:text-[#FFD966] block px-3 py-2 rounded-md text-base font-medium hover:bg-[#8F2901]/30"
@@ -96,6 +101,7 @@ const Navbar = () => {
             >
               ABOUT
             </Link>
+
             <Link
               to="/eventspage"
               className="text-white hover:text-[#FFD966] block px-3 py-2 rounded-md text-base font-medium hover:bg-[#8F2901]/30"
@@ -103,6 +109,7 @@ const Navbar = () => {
             >
               EVENTS
             </Link>
+
             <Link
               to="/teampage"
               className="text-white hover:text-[#FFD966] block px-3 py-2 rounded-md text-base font-medium hover:bg-[#8F2901]/30"
@@ -110,6 +117,7 @@ const Navbar = () => {
             >
               OUR TEAM
             </Link>
+
             <Link
               to="/joinuspage"
               className="text-white hover:text-[#FFD966] block px-3 py-2 rounded-md text-base font-medium hover:bg-[#8F2901]/30"
@@ -117,6 +125,7 @@ const Navbar = () => {
             >
               REGISTER
             </Link>
+
           </div>
         </div>
       )}

@@ -20,7 +20,7 @@ const AboutServe = () => {
             <img
               src="/images/IMG_20250614_112825.jpg"
               alt="About Talidhay"
-              className="w-full h-75 max-w-md rounded-3xl shadow-lg object-cover"
+              className="w-full h-75 rounded-3xl shadow-lg object-cover"
             />
           </div>
           {/* Right column: Text */}
