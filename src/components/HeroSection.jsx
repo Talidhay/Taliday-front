@@ -21,7 +21,6 @@ const HeroSection = () => {
       {/* Hero Content */}
       <div className="max-w-4xl mx-auto px-6 relative z-10">
         <div className="flex flex-col items-center text-center animate-fade-in">
-
           <h1 className="protest-riot-regular text-6xl sm:text-7xl lg:text-9xl font-bold text-white leading-none mb-4">
             TALIDHAY
           </h1>
@@ -33,21 +32,11 @@ const HeroSection = () => {
           <Link
             to="/donate"
             aria-label="Donate to Talidhay"
-            className="
-              bg-[#FAD374]
-              text-[#8F2901]
-              px-8 py-3
-              rounded-full
-              font-bold text-lg
-              shadow-lg
-              hover:bg-[#f8c94d]
-              hover:-translate-y-1
-              transition-all duration-300
-            "
+            className=" inline-flex items-center justify-center bg-[#FAD374] text-[#8F2901] px-10 py-4 rounded-full font-extrabold text-lg sm:text-xl tracking-wider border-2 border-[#FFE9A8] shadow-[0_0_20px_rgba(250,211,116,0.35)] hover:bg-[#FFE6A0] hover:shadow-[0_0_30px_rgba(250,211,116,0.6)] hover:scale-105 active:scale-95 transition-all duration-300 ease-in-out "
           >
-            DONATE
+            {" "}
+            DONATE{" "}
           </Link>
-
         </div>
       </div>
 
