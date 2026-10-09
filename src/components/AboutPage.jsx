@@ -60,7 +60,7 @@ const AboutPage = () => {
       {/* <AboutObjectives /> */}
       <AboutCoreValues />
       <AboutServe />
-      <AboutJournalJoy />
+      {/* <AboutJournalJoy /> */}
       {/* <AboutLogoMeaning /> */}
     </>
   );

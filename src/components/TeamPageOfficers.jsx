@@ -41,7 +41,7 @@ const TeamPageOfficers = () => {
   ];
 
   return (
-    <section id="teampageofficers" className="bg-white">
+    <section id="teampageofficers" className="bg-white" style={{ marginTop: "5rem" }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="mb-10 text-center">

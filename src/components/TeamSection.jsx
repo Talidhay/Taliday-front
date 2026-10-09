@@ -52,9 +52,8 @@ const TeamSection = () => {
             <span>The People Behind Talidhay</span>
           </h2>
           <p className="text-s leading-relaxed max-w-4xl mx-auto">
-            A movement made possible by passionate volunteers, organizers, and
-            community builders who work together to turn small acts into
-            meaningful change.
+            Dedicated members and organizers turning small acts into meaningful
+            change.
           </p>
         </div>
 
@@ -75,12 +74,13 @@ const TeamSection = () => {
                 />
               </div> */}
               <div>
-                <h4 className="text-3xl font-bold text-gray-900 mb-2" style={{ color: "#8F2901" }}>
+                <h4
+                  className="text-3xl font-bold text-gray-900 mb-2"
+                  style={{ color: "#8F2901" }}
+                >
                   {member.name}
                 </h4>
-                <p className="text-amber-800 font-medium mb-4">
-                  {member.role}
-                </p>
+                <p className="text-amber-800 font-medium mb-4">{member.role}</p>
                 <p className="leading-relaxed text-sm">{member.description}</p>
               </div>
             </div>

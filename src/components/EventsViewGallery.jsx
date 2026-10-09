@@ -33,9 +33,7 @@ const EventsViewGallery = ({ images = [] }) => {
 
     resetZoom();
 
-    setZoomedIdx((prev) =>
-      prev === 0 ? images.length - 1 : prev - 1
-    );
+    setZoomedIdx((prev) => (prev === 0 ? images.length - 1 : prev - 1));
   };
 
   const handleNext = (e) => {
@@ -43,9 +41,7 @@ const EventsViewGallery = ({ images = [] }) => {
 
     resetZoom();
 
-    setZoomedIdx((prev) =>
-      prev === images.length - 1 ? 0 : prev + 1
-    );
+    setZoomedIdx((prev) => (prev === images.length - 1 ? 0 : prev + 1));
   };
 
   const handleClose = () => {
@@ -124,17 +120,13 @@ const EventsViewGallery = ({ images = [] }) => {
       if (e.key === "ArrowLeft") {
         resetZoom();
 
-        setZoomedIdx((prev) =>
-          prev === 0 ? images.length - 1 : prev - 1
-        );
+        setZoomedIdx((prev) => (prev === 0 ? images.length - 1 : prev - 1));
       }
 
       if (e.key === "ArrowRight") {
         resetZoom();
 
-        setZoomedIdx((prev) =>
-          prev === images.length - 1 ? 0 : prev + 1
-        );
+        setZoomedIdx((prev) => (prev === images.length - 1 ? 0 : prev + 1));
       }
 
       if (e.key === "Escape") {
@@ -187,7 +179,6 @@ const EventsViewGallery = ({ images = [] }) => {
   return (
     <section id="eventsviewgallery" className="bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20 pt-3">
-
         {/* Gallery */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {images.map((img, idx) => (
@@ -236,7 +227,6 @@ const EventsViewGallery = ({ images = [] }) => {
           onMouseUp={handleMouseUp}
           onMouseLeave={handleMouseUp}
         >
-
           {/* Close Button */}
           <button
             type="button"
@@ -410,9 +400,7 @@ const EventsViewGallery = ({ images = [] }) => {
               style={{
                 transform: `translate(${position.x}px, ${position.y}px) scale(${zoomLevel})`,
                 transformOrigin: "center center",
-                transition: isDragging
-                  ? "none"
-                  : "transform 0.3s ease",
+                transition: isDragging ? "none" : "transform 0.3s ease",
               }}
             />
           </div>
@@ -481,9 +469,7 @@ const EventsViewGallery = ({ images = [] }) => {
               sm:block
             "
           >
-            {zoomLevel > 1
-              ? "Drag image to move"
-              : "Use + / − to zoom"}
+            {zoomLevel > 1 ? "Drag image to move" : "Use + / − to zoom"}
           </div>
         </div>
       )}
