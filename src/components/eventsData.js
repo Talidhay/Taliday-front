@@ -904,7 +904,7 @@ export const events = [
         description: "Brgy. Amihan Organization - Collaborated Partner",
       },
     ],
-    description: PLACEHOLDER_DESC,
+    description: "Bata! Bata! Laro Tayo! was a community event organized by Talidhay in collaboration with SKBB on June 14, 2025, at Banaba Court, Barangay Amihan, Quezon City. The initiative encouraged children aged 6–17 to rediscover the joy of traditional games and enjoy activities beyond screens. \n\n The event featured traditional and team games that promoted physical activity, teamwork, and camaraderie. Six teams—Team Arjel, Team Brainrot, Team Asul, Team Grow a Garden, Team N8yam, and Team Moonmelon—participated in the friendly competitions. \n\n Throughout the activity, the children showcased their energy, sportsmanship, and teamwork while building friendships and creating memorable experiences with their peers. \n\n The event concluded with a celebration of the participants' efforts, reinforcing Talidhay's commitment to community engagement and providing meaningful experiences for children through play.",
   },
   // pitaka talks
   {
@@ -977,7 +977,7 @@ export const events = [
         description: "Guest Speaker",
       },
     ],
-    description: PLACEHOLDER_DESC,
+    description: "Pitaka Talks was a financial literacy seminar organized by Talidhay to help community members develop better money management skills. Held on September 6, 2025, at the Barangay Amihan Function Hall, the event focused on budgeting, saving, financial planning, and making informed financial decisions.\n\n The seminar featured Ms. Diana Malacad, a Financial Wealth Planner at FWD Life Philippines and an experienced community volunteer, who shared her knowledge and insights on managing personal finances. \n\n Participants had the opportunity to learn practical financial strategies and engage in discussions about building healthier financial habits. The event also featured a raffle, giving attendees the chance to win eco-friendly tote bags. \n\n Talidhay promotes financial awareness and empowers community members to make wiser financial decisions for a more secure future.",
   },
   // donation drive happyland tondo
   {
@@ -1067,7 +1067,7 @@ export const events = [
         description: "Volunteer",
       },
     ],
-    description: PLACEHOLDER_DESC,
+    description: "With the spirit of genuine service and bayanihan, Talidhay organized a Fire Relief Donation Drive for families affected by the devastating fire in Barangay 105, Happyland, Tondo. Despite limited resources, we gathered essential goods, including food, clothing, blankets, hygiene kits, medical supplies, and necessities for infants, through the generosity of our donors and volunteers. \n\nConcluding on September 27, 2025, the initiative strengthened our commitment to serving others and spreading kindness. Talidhay was deeply grateful to everyone who shared their time and resources, reminding affected families that they were not alone.",
   },
   // donation drive typhoon kristene
   {
@@ -1134,14 +1134,14 @@ export const events = [
         description: "LOC",
       },
     ],
-    description: PLACEHOLDER_DESC,
+    description: "When Typhoon Kristine affected families and communities, Talidhay came together to extend a helping hand through the collection of essential goods and clothing. With the kindness of our donors and the efforts of our team, we were able to gather donations that offered support to those facing difficult times. \n\nThe experience reflected Talidhay’s belief that even simple acts of kindness could make a difference, strengthening our commitment to spreading joy, compassion, and meaningful connections through service to others.",
   },
   // brewkada hub november 2025
   {
     slug: "brewkada-hub-nov",
     title: "BrewKada Hub",
     date: "November 2025",
-    tags: ["#BrewKadaHub", "#Talidhay", "#Coffee"],
+    tags: ["#BrewKadaHub", "#Talidhay", "#DrinkForACause"],
     coverImage: "/images/Events/BrewKadaHub_1125/7.jpg",
     gallery: [
       {
@@ -1266,15 +1266,15 @@ export const events = [
         description: "LOC",
       },
     ],
-    description: PLACEHOLDER_DESC,
+    description: "Once again, Brewkada Hub returned as Talidhay’s fundraising initiative, serving refreshing cold-brewed drinks to raise funds for our upcoming events and community projects. Open on selected dates throughout November 2025 at 22 Banaba Street, Barangay Amihan, Project 3, Quezon City, the initiative brought together a love for good drinks and a shared purpose of giving back. \n\n Through every cup purchased, our supporters helped turn simple moments into meaningful contributions toward Talidhay’s future initiatives.",
   },
   // cheerful draw 2025
   {
     slug: "cheerful-draw-2025",
     title: "Cheerful Draw 2025",
     date: "2025",
-    tags: ["#CheerfulDraw", "#Talidhay", "#Art"],
-    coverImage: "/images/Events/CheerfulDraw_25/12.jpg",
+    tags: ["#CheerfulDraw", "#Talidhay"],
+    coverImage: "/images/Events/CheerfulDraw_25/3.jpg",
     gallery: [
       {
         src: "/images/Events/CheerfulDraw_25/1.jpeg",
@@ -1311,18 +1311,6 @@ export const events = [
       {
         src: "/images/Events/CheerfulDraw_25/9.jpg",
         alt: "Cheerful Draw 2025 9",
-      },
-      {
-        src: "/images/Events/CheerfulDraw_25/10.jpg",
-        alt: "Cheerful Draw 2025 10",
-      },
-      {
-        src: "/images/Events/CheerfulDraw_25/11.jpg",
-        alt: "Cheerful Draw 2025 11",
-      },
-      {
-        src: "/images/Events/CheerfulDraw_25/12.jpg",
-        alt: "Cheerful Draw 2025 12",
       },
       {
         src: "/images/Events/CheerfulDraw_25/13.jpg",
@@ -1368,7 +1356,7 @@ export const events = [
         description: "LOC",
       },
     ],
-    description: PLACEHOLDER_DESC,
+    description: "Bringing back the excitement of Cheerful Draw, Talidhay introduced a Christmas edition to make the holiday season more meaningful while raising funds for its upcoming community initiatives. With raffle tickets priced at ₱20 each, the fundraiser invited supporters to take part in the holiday fun and look forward to winning exciting prizes. \n\n Ticket selling began on November 26, 2025, with the raffle draw scheduled for December 20, 2025. A mystery Christmas reward added an extra touch of excitement, making the initiative another opportunity to share joy and support Talidhay’s mission.",
   },
   // a timeless carol
   {
@@ -1550,14 +1538,14 @@ export const events = [
         description: "Volunteer",
       },
     ],
-    description: PLACEHOLDER_DESC,
+    description: "A Timeless Carol was Talidhay’s way of bringing the warmth of Christmas to the elderly while reminiscing about the precious moments we shared with our own grandparents. Held on December 27, 2025, at Milagros Elderly Home Care in Marikina City, the visit was filled with Christmas carols, heartfelt conversations, and mini-games planned to bring back childhood memories and let them enjoy simple moments of fun once again. \n\n Through this experience, we were reminded that behind every smile was a lifetime of stories worth listening to and memories worth cherishing. More than sharing the joy of Christmas, we hoped to make the elderly feel remembered, valued, and loved, creating new memories while celebrating the beautiful ones they carried with them.",
   },
   // petals with purpose
   {
     slug: "petals-with-purpose",
     title: "Petals With Purpose",
     date: "February 2026",
-    tags: ["#PetalsWithPurpose", "#Talidhay", "#FinancialLiteracy"],
+    tags: ["#PetalsWithPurpose", "#Talidhay", "FundRaising"],
     coverImage: "/images/Events/PetalsWithPurpose_0226/12.jpeg",
     gallery: [
       {
@@ -1658,14 +1646,14 @@ export const events = [
         description: "LOC",
       },
     ],
-    description: PLACEHOLDER_DESC,
+    description: "As February, the month of hearts and love, approached, Talidhay launched Petals for Purpose, a fundraising initiative that offered handmade flowers as thoughtful gifts for loved ones. The project celebrated the beauty of expressing love while giving supporters an opportunity to contribute to Talidhay’s upcoming community initiatives. \n\n Through every flower purchased, love became more than a simple gift. It became a way to share kindness, support meaningful causes, and spread joy beyond the people closest to our hearts.",
   },
   // brewkada hub april-may 2026
   {
     slug: "brewkada-hub-april-may-2026",
     title: "BrewKada Hub",
     date: "April - May 2026",
-    tags: ["#BrewKadaHub", "#Talidhay", "#Coffee"],
+    tags: ["#BrewKadaHub", "#Talidhay", "#DrinkForACause"],
     coverImage: "/images/Events/BrewKadaHub_0426/2.jpg",
     gallery: [
       {
@@ -1746,6 +1734,6 @@ export const events = [
         description: "LOC",
       },
     ],
-    description: PLACEHOLDER_DESC,
+    description: "Back for its third run, Brewkada Hub once again brought people together over refreshing drinks and a shared purpose. More than just a beverage pop-up, the initiative became one of Talidhay’s ways of raising funds to support future events and continue creating meaningful experiences for the community. \n\n Located at 22 Banaba Street, Barangay Amihan, Project 3, Quezon City, the hub welcomed customers starting at 2:00 PM. With every purchase, supporters helped turn their simple drink breaks into contributions toward Talidhay’s mission of spreading joy, one moment at a time.",
   },
 ];
