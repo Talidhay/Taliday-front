@@ -3,6 +3,22 @@
 const PLACEHOLDER =
   "Details for this event are coming soon. Stay tuned as we fill in the story behind this wonderful community gathering. Check back to learn more about what took place, who was involved, and the impact we made together.";
 
+const formatText = (text) => {
+  const parts = text.split(/(\*\*.*?\*\*|\*.*?\*)/g);
+
+  return parts.map((part, index) => {
+    if (part.startsWith("**") && part.endsWith("**")) {
+      return <strong key={index}>{part.slice(2, -2)}</strong>;
+    }
+
+    if (part.startsWith("*") && part.endsWith("*")) {
+      return <em key={index}>{part.slice(1, -1)}</em>;
+    }
+
+    return part;
+  });
+};
+
 const EventsViewDescription = ({ event }) => {
   const description = event?.description || PLACEHOLDER;
   const paragraphs = description.split("\n\n");
@@ -13,19 +29,12 @@ const EventsViewDescription = ({ event }) => {
         {event?.date && (
           <p className="text-sm text-gray-500 italic mb-4">{event.date}</p>
         )}
-        <p className="text-gray-700 text-lg leading-relaxed text-justify">
+
+        <div className="text-gray-700 text-lg leading-relaxed text-justify space-y-4">
           {paragraphs.map((para, i) => (
-            <React.Fragment key={i}>
-              {para}
-              {i < paragraphs.length - 1 && (
-                <>
-                  <br />
-                  <br />
-                </>
-              )}
-            </React.Fragment>
+            <p key={i}>{formatText(para)}</p>
           ))}
-        </p>
+        </div>
       </div>
     </section>
   );

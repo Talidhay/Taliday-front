@@ -184,7 +184,7 @@ export const events = [
         description: "Volunteer",
       },
     ],
-    description: `On February 15, 2025, the Talidhay team successfully launched their community event, Art From the Heart, at Barangay Amihan. The event was designed to create a space for young children to express themselves through art, and it became a lively gathering filled with creativity and joy.\n\nPresent during the event were core organizers: Julia Marie Ladrera (President), Tania Virgino (Vice President), Marylyne Vargas (Secretary), Angel Macabale (Treasurer), Abigail Macabale (VCCC), Cyril Lagdameo (MDC), Mark Benlot (FWC), Joshua Ladion (FWC), Aya Africano (MDC), and Markus Bernales (volunteer). Despite the initial plan to begin at 2:00 PM, the event officially started at 2:30 PM and ran until 5:00 PM.\n\nThe activity welcomed an initial set of 50 kids aged 9 and below. By the end of the program, 45 children participated fully, engaging with the art materials and enjoying the atmosphere curated by the team.\n\nThe team's collective efforts were visible in every corner: from colorful decorations to thoughtful logistics like seating arrangements, program hosting, and facilitation of materials. Roles were distributed effectively, with documentation handled by Cyril and Aya, games and energizers coordinated by Joshua, Julia, and Markus, registration managed by Mark and Abi, and ushering done by Jeng and Len. Tania also delivered a warm announcement to the community, setting the tone for a fun and meaningful afternoon.\n\nAs the event concluded, the Talidhay team was filled with a sense of accomplishment. "Art From the Heart" ended not just as an event but as a heartfelt celebration of creativity, connection, and service.`,
+    description: `On February 15, 2025, the Talidhay team successfully launched their community event, Art From the Heart, at Barangay Amihan. The event was designed to create a space for young children to express themselves through art, and it became a lively gathering filled with creativity and joy.\n\nPresent during the event were core organizers: Julia Marie Ladrera (President), Tania Virgino (Vice President), Marylyne Vargas (Secretary), Angel Macabale (Treasurer), Abigail Macabale (VCC), Cyril Lagdameo (MDC), Mark Benlot (FWC), Joshua Ladion (FWC), Aya Africano (MDC), and Markus Bernales (volunteer). Despite the initial plan to begin at 2:00 PM, the event officially started at 2:30 PM and ran until 5:00 PM.\n\nThe activity welcomed an initial set of 50 kids aged 9 and below. By the end of the program, 45 children participated fully, engaging with the art materials and enjoying the atmosphere curated by the team.\n\nThe team's collective efforts were visible in every corner: from colorful decorations to thoughtful logistics like seating arrangements, program hosting, and facilitation of materials. Roles were distributed effectively, with documentation handled by Cyril and Aya, games and energizers coordinated by Joshua, Julia, and Markus, registration managed by Mark and Abi, and ushering done by Jeng and Len. Tania also delivered a warm announcement to the community, setting the tone for a fun and meaningful afternoon.\n\nAs the event concluded, the Talidhay team was filled with a sense of accomplishment. "Art From the Heart" ended not just as an event but as a heartfelt celebration of creativity, connection, and service.`,
   },
   // donation drive daan tubo
   {
@@ -904,7 +904,8 @@ export const events = [
         description: "Brgy. Amihan Organization - Collaborated Partner",
       },
     ],
-    description: "Bata! Bata! Laro Tayo! was a community event organized by Talidhay in collaboration with SKBB on June 14, 2025, at Banaba Court, Barangay Amihan, Quezon City. The initiative encouraged children aged 6–17 to rediscover the joy of traditional games and enjoy activities beyond screens. \n\n The event featured traditional and team games that promoted physical activity, teamwork, and camaraderie. Six teams—Team Arjel, Team Brainrot, Team Asul, Team Grow a Garden, Team N8yam, and Team Moonmelon—participated in the friendly competitions. \n\n Throughout the activity, the children showcased their energy, sportsmanship, and teamwork while building friendships and creating memorable experiences with their peers. \n\n The event concluded with a celebration of the participants' efforts, reinforcing Talidhay's commitment to community engagement and providing meaningful experiences for children through play.",
+    description:
+      "Bata! Bata! Laro Tayo! was a community event organized by Talidhay in collaboration with SKBB on June 14, 2025, at Banaba Court, Barangay Amihan, Quezon City. The initiative encouraged children aged 6–17 to rediscover the joy of traditional games and enjoy activities beyond screens. \n\n The event featured traditional and team games that promoted physical activity, teamwork, and camaraderie. Six teams—Team Arjel, Team Brainrot, Team Asul, Team Grow a Garden, Team N8yam, and Team Moonmelon—participated in the friendly competitions. \n\n Throughout the activity, the children showcased their energy, sportsmanship, and teamwork while building friendships and creating memorable experiences with their peers. \n\n The event concluded with a celebration of the participants' efforts, reinforcing Talidhay's commitment to community engagement and providing meaningful experiences for children through play.",
   },
   // pitaka talks
   {
@@ -977,7 +978,8 @@ export const events = [
         description: "Guest Speaker",
       },
     ],
-    description: "Pitaka Talks was a financial literacy seminar organized by Talidhay to help community members develop better money management skills. Held on September 6, 2025, at the Barangay Amihan Function Hall, the event focused on budgeting, saving, financial planning, and making informed financial decisions.\n\n The seminar featured Ms. Diana Malacad, a Financial Wealth Planner at FWD Life Philippines and an experienced community volunteer, who shared her knowledge and insights on managing personal finances. \n\n Participants had the opportunity to learn practical financial strategies and engage in discussions about building healthier financial habits. The event also featured a raffle, giving attendees the chance to win eco-friendly tote bags. \n\n Talidhay promotes financial awareness and empowers community members to make wiser financial decisions for a more secure future.",
+    description:
+      "Pitaka Talks was a financial literacy seminar organized by Talidhay to help community members develop better money management skills. Held on September 6, 2025, at the Barangay Amihan Function Hall, the event focused on budgeting, saving, financial planning, and making informed financial decisions.\n\n The seminar featured Ms. Diana Malacad, a Financial Wealth Planner at FWD Life Philippines and an experienced community volunteer, who shared her knowledge and insights on managing personal finances. \n\n Participants had the opportunity to learn practical financial strategies and engage in discussions about building healthier financial habits. The event also featured a raffle, giving attendees the chance to win eco-friendly tote bags. \n\n Talidhay promotes financial awareness and empowers community members to make wiser financial decisions for a more secure future.",
   },
   // donation drive happyland tondo
   {
@@ -1067,7 +1069,8 @@ export const events = [
         description: "Volunteer",
       },
     ],
-    description: "With the spirit of genuine service and bayanihan, Talidhay organized a Fire Relief Donation Drive for families affected by the devastating fire in Barangay 105, Happyland, Tondo. Despite limited resources, we gathered essential goods, including food, clothing, blankets, hygiene kits, medical supplies, and necessities for infants, through the generosity of our donors and volunteers. \n\nConcluding on September 27, 2025, the initiative strengthened our commitment to serving others and spreading kindness. Talidhay was deeply grateful to everyone who shared their time and resources, reminding affected families that they were not alone.",
+    description:
+      "With the spirit of genuine service and bayanihan, Talidhay organized a Fire Relief Donation Drive for families affected by the devastating fire in Barangay 105, Happyland, Tondo. Despite limited resources, we gathered essential goods, including food, clothing, blankets, hygiene kits, medical supplies, and necessities for infants, through the generosity of our donors and volunteers. \n\nConcluding on September 27, 2025, the initiative strengthened our commitment to serving others and spreading kindness. Talidhay was deeply grateful to everyone who shared their time and resources, reminding affected families that they were not alone.",
   },
   // donation drive typhoon kristene
   {
@@ -1134,7 +1137,8 @@ export const events = [
         description: "LOC",
       },
     ],
-    description: "When Typhoon Kristine affected families and communities, Talidhay came together to extend a helping hand through the collection of essential goods and clothing. With the kindness of our donors and the efforts of our team, we were able to gather donations that offered support to those facing difficult times. \n\nThe experience reflected Talidhay’s belief that even simple acts of kindness could make a difference, strengthening our commitment to spreading joy, compassion, and meaningful connections through service to others.",
+    description:
+      "When Typhoon Kristine affected families and communities, Talidhay came together to extend a helping hand through the collection of essential goods and clothing. With the kindness of our donors and the efforts of our team, we were able to gather donations that offered support to those facing difficult times. \n\nThe experience reflected Talidhay’s belief that even simple acts of kindness could make a difference, strengthening our commitment to spreading joy, compassion, and meaningful connections through service to others.",
   },
   // brewkada hub november 2025
   {
@@ -1266,7 +1270,8 @@ export const events = [
         description: "LOC",
       },
     ],
-    description: "Once again, Brewkada Hub returned as Talidhay’s fundraising initiative, serving refreshing cold-brewed drinks to raise funds for our upcoming events and community projects. Open on selected dates throughout November 2025 at 22 Banaba Street, Barangay Amihan, Project 3, Quezon City, the initiative brought together a love for good drinks and a shared purpose of giving back. \n\n Through every cup purchased, our supporters helped turn simple moments into meaningful contributions toward Talidhay’s future initiatives.",
+    description:
+      "Once again, Brewkada Hub returned as Talidhay’s fundraising initiative, serving refreshing cold-brewed drinks to raise funds for our upcoming events and community projects. Open on selected dates throughout November 2025 at 22 Banaba Street, Barangay Amihan, Project 3, Quezon City, the initiative brought together a love for good drinks and a shared purpose of giving back. \n\n Through every cup purchased, our supporters helped turn simple moments into meaningful contributions toward Talidhay’s future initiatives.",
   },
   // cheerful draw 2025
   {
@@ -1356,7 +1361,8 @@ export const events = [
         description: "LOC",
       },
     ],
-    description: "Bringing back the excitement of Cheerful Draw, Talidhay introduced a Christmas edition to make the holiday season more meaningful while raising funds for its upcoming community initiatives. With raffle tickets priced at ₱20 each, the fundraiser invited supporters to take part in the holiday fun and look forward to winning exciting prizes. \n\n Ticket selling began on November 26, 2025, with the raffle draw scheduled for December 20, 2025. A mystery Christmas reward added an extra touch of excitement, making the initiative another opportunity to share joy and support Talidhay’s mission.",
+    description:
+      "Bringing back the excitement of Cheerful Draw, Talidhay introduced a Christmas edition to make the holiday season more meaningful while raising funds for its upcoming community initiatives. With raffle tickets priced at ₱20 each, the fundraiser invited supporters to take part in the holiday fun and look forward to winning exciting prizes. \n\n Ticket selling began on November 26, 2025, with the raffle draw scheduled for December 20, 2025. A mystery Christmas reward added an extra touch of excitement, making the initiative another opportunity to share joy and support Talidhay’s mission.",
   },
   // a timeless carol
   {
@@ -1538,7 +1544,8 @@ export const events = [
         description: "Volunteer",
       },
     ],
-    description: "A Timeless Carol was Talidhay’s way of bringing the warmth of Christmas to the elderly while reminiscing about the precious moments we shared with our own grandparents. Held on December 27, 2025, at Milagros Elderly Home Care in Marikina City, the visit was filled with Christmas carols, heartfelt conversations, and mini-games planned to bring back childhood memories and let them enjoy simple moments of fun once again. \n\n Through this experience, we were reminded that behind every smile was a lifetime of stories worth listening to and memories worth cherishing. More than sharing the joy of Christmas, we hoped to make the elderly feel remembered, valued, and loved, creating new memories while celebrating the beautiful ones they carried with them.",
+    description:
+      "A Timeless Carol was Talidhay’s way of bringing the warmth of Christmas to the elderly while reminiscing about the precious moments we shared with our own grandparents. Held on December 27, 2025, at Milagros Elderly Home Care in Marikina City, the visit was filled with Christmas carols, heartfelt conversations, and mini-games planned to bring back childhood memories and let them enjoy simple moments of fun once again. \n\n Through this experience, we were reminded that behind every smile was a lifetime of stories worth listening to and memories worth cherishing. More than sharing the joy of Christmas, we hoped to make the elderly feel remembered, valued, and loved, creating new memories while celebrating the beautiful ones they carried with them.",
   },
   // petals with purpose
   {
@@ -1646,7 +1653,8 @@ export const events = [
         description: "LOC",
       },
     ],
-    description: "As February, the month of hearts and love, approached, Talidhay launched Petals for Purpose, a fundraising initiative that offered handmade flowers as thoughtful gifts for loved ones. The project celebrated the beauty of expressing love while giving supporters an opportunity to contribute to Talidhay’s upcoming community initiatives. \n\n Through every flower purchased, love became more than a simple gift. It became a way to share kindness, support meaningful causes, and spread joy beyond the people closest to our hearts.",
+    description:
+      "As February, the month of hearts and love, approached, Talidhay launched Petals for Purpose, a fundraising initiative that offered handmade flowers as thoughtful gifts for loved ones. The project celebrated the beauty of expressing love while giving supporters an opportunity to contribute to Talidhay’s upcoming community initiatives. \n\n Through every flower purchased, love became more than a simple gift. It became a way to share kindness, support meaningful causes, and spread joy beyond the people closest to our hearts.",
   },
   // brewkada hub april-may 2026
   {
@@ -1734,6 +1742,149 @@ export const events = [
         description: "LOC",
       },
     ],
-    description: "Back for its third run, Brewkada Hub once again brought people together over refreshing drinks and a shared purpose. More than just a beverage pop-up, the initiative became one of Talidhay’s ways of raising funds to support future events and continue creating meaningful experiences for the community. \n\n Located at 22 Banaba Street, Barangay Amihan, Project 3, Quezon City, the hub welcomed customers starting at 2:00 PM. With every purchase, supporters helped turn their simple drink breaks into contributions toward Talidhay’s mission of spreading joy, one moment at a time.",
+    description:
+      "Back for its third run, Brewkada Hub once again brought people together over refreshing drinks and a shared purpose. More than just a beverage pop-up, the initiative became one of Talidhay’s ways of raising funds to support future events and continue creating meaningful experiences for the community. \n\n Located at 22 Banaba Street, Barangay Amihan, Project 3, Quezon City, the hub welcomed customers starting at 2:00 PM. With every purchase, supporters helped turn their simple drink breaks into contributions toward Talidhay’s mission of spreading joy, one moment at a time.",
+  },
+  // Talidhay Synergy 2026
+  {
+    slug: "talidhay-synergy-2026",
+    title: "Talidhay Synergy 2026",
+    date: "May 23, 2026",
+    tags: ["#Talidhay", "#Synergy", "#2026","#Outing"],
+    coverImage: "/images/Events/Talidhay_Synergy_2026/tdysynergy1 (12).jpeg",
+    gallery: [
+      {
+        src: "/images/Events/Talidhay_Synergy_2026/tdysynergy1 (1).jpeg",
+        alt: "Talidhay Synergy 2026 1",
+      },
+      {
+        src: "/images/Events/Talidhay_Synergy_2026/tdysynergy1 (2).jpg",
+        alt: "Talidhay Synergy 2026 3",
+      },
+      {
+        src: "/images/Events/Talidhay_Synergy_2026/tdysynergy1 (3).jpeg",
+        alt: "Talidhay Synergy 2026 4",
+      },
+      {
+        src: "/images/Events/Talidhay_Synergy_2026/tdysynergy1 (3).jpg",
+        alt: "Talidhay Synergy 2026 5",
+      },
+      {
+        src: "/images/Events/Talidhay_Synergy_2026/tdysynergy1 (4).jpeg",
+        alt: "Talidhay Synergy 2026 6",
+      },
+      {
+        src: "/images/Events/Talidhay_Synergy_2026/tdysynergy1 (4).jpg",
+        alt: "Talidhay Synergy 2026 7",
+      },
+      {
+        src: "/images/Events/Talidhay_Synergy_2026/tdysynergy1 (5).jpg",
+        alt: "Talidhay Synergy 2026 1",
+      },
+      {
+        src: "/images/Events/Talidhay_Synergy_2026/tdysynergy1 (5).jpeg",
+        alt: "Talidhay Synergy 2026 2",
+      },
+      {
+        src: "/images/Events/Talidhay_Synergy_2026/tdysynergy1 (6).jpg",
+        alt: "Talidhay Synergy 2026 3",
+      },
+      {
+        src: "/images/Events/Talidhay_Synergy_2026/tdysynergy1 (6).jpeg",
+        alt: "Talidhay Synergy 2026 4",
+      },
+      {
+        src: "/images/Events/Talidhay_Synergy_2026/tdysynergy1 (7).jpg",
+        alt: "Talidhay Synergy 2026 5",
+      },
+      {
+        src: "/images/Events/Talidhay_Synergy_2026/tdysynergy1 (7).jpeg",
+        alt: "Talidhay Synergy 2026 6",
+      },
+      {
+        src: "/images/Events/Talidhay_Synergy_2026/tdysynergy1 (8).jpeg",
+        alt: "Talidhay Synergy 2026 7",
+      },
+      {
+        src: "/images/Events/Talidhay_Synergy_2026/tdysynergy1 (9).jpeg",
+        alt: "Talidhay Synergy 2026 7",
+      },
+      {
+        src: "/images/Events/Talidhay_Synergy_2026/tdysynergy1 (10).jpeg",
+        alt: "Talidhay Synergy 2026 4",
+      },
+      {
+        src: "/images/Events/Talidhay_Synergy_2026/tdysynergy1 (11).jpeg",
+        alt: "Talidhay Synergy 2026 5",
+      },
+      {
+        src: "/images/Events/Talidhay_Synergy_2026/tdysynergy1 (12).jpeg",
+        alt: "Talidhay Synergy 2026 6",
+      },
+      {
+        src: "/images/Events/Talidhay_Synergy_2026/tdysynergy1 (13).jpeg",
+        alt: "Talidhay Synergy 2026 7",
+      },
+      {
+        src: "/images/Events/Talidhay_Synergy_2026/tdysynergy1 (14).jpeg",
+        alt: "Talidhay Synergy 2026 7",
+      },
+    ],
+    promotions: [],
+    report: [],
+    organizers: [
+      {
+        img: "/images/Events/Art_From_The_Heart_021525/26.JPG",
+        title: "Julia Marie Ladrera",
+        description: "President",
+      },
+      {
+        img: "/images/Events/Art_From_The_Heart_021525/26.JPG",
+        title: "Tania Virgino",
+        description: "Vice President",
+      },
+      {
+        img: "/images/Events/Art_From_The_Heart_021525/26.JPG",
+        title: "Marylyne Vargas",
+        description: "Secretary",
+      },
+      {
+        img: "/images/Events/Art_From_The_Heart_021525/26.JPG",
+        title: "Angel Macabale",
+        description: "Treasurer",
+      },
+      {
+        img: "/images/Events/Art_From_The_Heart_021525/26.JPG",
+        title: "Cyril Lagdameo",
+        description: "Auditor",
+      },
+      {
+        img: "/images/Events/Art_From_The_Heart_021525/26.JPG",
+        title: "Mark Benlot",
+        description: "PRO",
+      },
+      {
+        img: "/images/Events/Art_From_The_Heart_021525/26.JPG",
+        title: "Marri Krishna Vargas",
+        description: "VCC",
+      },
+      {
+        img: "/images/Events/Art_From_The_Heart_021525/26.JPG",
+        title: "Joshua Ladion",
+        description: "LOC",
+      },
+      {
+        img: "/images/Events/Art_From_The_Heart_021525/26.JPG",
+        title: "Juan Ladrera",
+        description: "LOC",
+      },
+      {
+        img: "/images/Events/Art_From_The_Heart_021525/26.JPG",
+        title: "Jose Ladrera",
+        description: "Invited Guest",
+      },
+    ],
+    description:
+      "**Growing Together, Spreading Joy From Within.** \n\nAs Talidhay Synergy's very first organizational outing and team retreat, this milestone brings our volunteer family together for a refreshing getaway to Antipolo, Rizal, a day dedicated to rest, reconnection, and celebrating the people behind our community work.\n\nAfter months of shared efforts and passionate service, this is our time to step away from schedules and responsibilities, have fun, laugh freely, and simply enjoy one another's company.\n\nThrough meaningful activities, moments of reflection, and heartfelt conversations, we hope to celebrate how far we've come, recognize each volunteer's growth, share personal stories, listen with empathy, and reconnect with the dreams we share for Talidhay's future.\n\nMore than just an outing, this is a reminder that the joy we bring to our community begins with the joy, care, and genuine connections we nurture within our own volunteer family.",
   },
 ];

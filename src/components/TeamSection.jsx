@@ -25,7 +25,7 @@ const TeamSection = () => {
       id: 4,
       name: "Angel Macabale",
       role: "Treasurer",
-      description: "Logistics Committee (LOC) - Head",
+      description: "Logistics and Operations Committee (LOC) - Head",
     },
     {
       id: 5,
